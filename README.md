@@ -7,7 +7,7 @@ This live demo of Experientialist uses [Vue](https://vuejs.org) and [Tailwind CS
 1. Download or clone the project
 
    ```sh
-   git clone https://github.com/joaquinvaldezzz/experientialist.git
+   git clone https://github.com/atweberlly/experientialist
    ```
 
 2. Go to the project directory
