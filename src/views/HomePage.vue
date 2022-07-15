@@ -27,7 +27,23 @@
       </div>
       <div></div>
     </header>
-    <main></main>
+    <main>
+      <section class="relative bg-nature bg-cover bg-center bg-no-repeat py-16 sm:py-20 md:py-24 lg:py-28">
+        <div class="absolute inset-0 h-full w-full bg-gradient-to-r from-black/50 to-black/25" aria-hidden="true"></div>
+        <div class="container relative text-white">
+          <div>
+            <h2 class="font-display text-4xl lg:text-5xl xl:text-6xl">
+              Let your inner
+              <br class="hidden sm:block" />
+              Adventurer out!
+            </h2>
+            <div class="mt-6">
+              <a class="inline-block bg-primary-300 px-4 py-3 text-sm uppercase tracking-wide" href="#">Let us help</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer class="bg-secondary-500 py-12 text-secondary-50 md:py-16 lg:py-20">
       <div class="container">
         <div class="flex flex-col items-start gap-8 lg:flex lg:flex-row lg:justify-between">

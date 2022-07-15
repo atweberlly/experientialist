@@ -58,6 +58,9 @@ module.exports = {
           500: '#7c1717',
         },
       },
+      backgroundImage: {
+        nature: "url('/images/john-lee-oMneOBYhJxY-unsplash.jpg')",
+      },
       fontFamily: {
         display: ['Old Standard TT', 'system-ui'],
       },
