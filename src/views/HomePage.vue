@@ -28,13 +28,32 @@
       <div></div>
     </header>
     <main>
+      <!-- <section class="bg-secondary-50 py-12">
+        <div class="container relative">
+          <div class="hidden sm:absolute sm:top-1/2 sm:left-0 sm:z-10 sm:-rotate-90 sm:select-none sm:items-center sm:gap-2">
+            <div class="font-display text-4xl uppercase tracking-tight text-secondary-300">Welcome</div>
+            <div class="h-0.5 w-24 bg-primary-300"></div>
+          </div>
+          <div class="grid grid-cols-1 gap-8 sm:mx-auto sm:max-w-sm md:mx-0 md:max-w-none md:grid-cols-2 md:items-center">
+            <div class="relative">
+              <img class="relative" src="/images/karl-muscat-_p0OdENA13Y-unsplash.jpg" alt="" />
+            </div>
+            <div>
+              <h2 class="font-display text-3xl tracking-tight text-primary-300">To experience is to know</h2>
+              <p class="mt-4 text-secondary-300">We have been cultivating years of experiences and venturing into the most authentic places in the world in order to bring you the safest, most knowledgeable experiences your company and family can explore.</p>
+              <p class="mt-4 text-secondary-300">When you work with us, you can rest easy knowing that every detail is taken care of, all the adventure without sacrificing luxury is thought through, you can truly elevate your travel.</p>
+              <p class="mt-4 italic text-primary-500">We know exactly how to build the most lucrative itinerary that will engage even the most uncompromising spirit.</p>
+            </div>
+          </div>
+        </div>
+      </section> -->
       <section class="relative bg-nature bg-cover bg-center bg-no-repeat py-16 sm:py-20 md:py-24 lg:py-28">
         <div class="absolute inset-0 h-full w-full bg-gradient-to-r from-black/50 to-black/25" aria-hidden="true"></div>
         <div class="container relative text-white">
           <div>
             <h2 class="font-display text-4xl lg:text-5xl xl:text-6xl">
               Let your inner
-              <br class="hidden sm:block" />
+              <br />
               Adventurer out!
             </h2>
             <div class="mt-6">
