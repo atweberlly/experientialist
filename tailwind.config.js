@@ -1,3 +1,4 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
 const plugin = require('tailwindcss/plugin')
 
 /** @type {import('tailwindcss').Config} */
@@ -62,6 +63,7 @@ module.exports = {
         nature: "url('/images/john-lee-oMneOBYhJxY-unsplash.jpg')",
       },
       fontFamily: {
+        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
         display: ['Old Standard TT', 'system-ui'],
       },
     },
