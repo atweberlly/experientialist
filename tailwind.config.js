@@ -1,5 +1,4 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
-const plugin = require('tailwindcss/plugin')
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -61,20 +60,27 @@ module.exports = {
       },
       backgroundImage: {
         nature: "url('/images/john-lee-oMneOBYhJxY-unsplash.jpg')",
+        beach: "url('/images/jcob-nasyr-hZPYwYR02Yo-unsplash.jpg')",
+      },
+      backgroundPosition: {
+        'top-16': 'center top -16rem',
       },
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
         display: ['Old Standard TT', 'system-ui'],
       },
+      fontSize: {
+        '4xl': [
+          '2.25rem',
+          {
+            lineHeight: 1.25,
+          },
+        ],
+      },
+      minWidth: {
+        xs: '20rem',
+      },
     },
   },
-  plugins: [
-    plugin(({ addUtilities }) => {
-      addUtilities({
-        '.writing-lr': {
-          'writing-mode': 'vertical-lr',
-        },
-      })
-    }),
-  ],
+  plugins: [],
 }
