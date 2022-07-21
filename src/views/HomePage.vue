@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen cursor-default antialiased">
+  <div class="min-h-screen antialiased">
     <header class="header" id="header">
       <div class="container">
         <div class="flex items-center justify-between py-8">
@@ -12,7 +12,7 @@
               <a href="#">Services</a>
               <a href="#">News</a>
               <a href="#">Villas</a>
-              <a class="border border-primary-300 px-4 py-3 text-primary-300" href="#">Plan your Experience</a>
+              <a class="border border-primary-300 px-4 py-3 text-primary-300 transition-colors hover:bg-primary-300 hover:text-white" href="#">Plan your Experience</a>
             </nav>
           </div>
           <button class="md:hidden" type="button">
@@ -26,6 +26,28 @@
     </header>
     <main>
       <section class="min-h-screen bg-resort bg-cover bg-center bg-no-repeat"></section>
+      <section class="bg-secondary-50 py-8 sm:py-12 md:py-16 lg:py-20">
+        <div class="container">
+          <div class="sm:max-w-md">
+            <h2 class="font-display text-4xl tracking-tight text-primary-300 md:text-5xl">
+              Elaborate your
+              <br />
+              travel experience
+            </h2>
+            <p class="mt-4 text-secondary-400 md:mt-8">We bring a world of possibilities closer to you by building customised bespoke itineraries to fit your corporate or family travel desires.</p>
+            <p class="mt-4 text-secondary-400">Luxury experiences and unforgettable adventures await you without even lifting a finger.</p>
+            <div class="mt-8">
+              <a class="inline-flex items-center gap-1 bg-primary-300 px-4 py-3 text-sm tracking-wide text-white" href="#">
+                <span class="uppercase">Start planning now</span>
+                <svg class="h-5 w-5" fill="none" viewBox="0 0 20 20">
+                  <path fill="currentColor" fill-rule="evenodd" d="M1.25 10a.625.625 0 0 1 .625-.625h14.741l-3.934-3.933a.626.626 0 1 1 .886-.885l5 5a.625.625 0 0 1 0 .885l-5 5a.626.626 0 1 1-.886-.885l3.934-3.932H1.875A.625.625 0 0 1 1.25 10Z" clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <img class="mt-8 aspect-video object-cover object-center md:aspect-[16/6] lg:max-w-2xl xl:aspect-[16/4] xl:max-w-4xl" src="/images/willian-justen-de-vasconcellos-lrPBS8b4G14-unsplash.jpg" alt="Sea shore" />
+        </div>
+      </section>
       <section class="relative bg-nature bg-cover bg-center bg-no-repeat py-16 sm:py-20 md:py-24 lg:py-28">
         <div class="absolute inset-0 h-full w-full bg-gradient-to-r from-black/50 to-black/25" aria-hidden="true"></div>
         <div class="container relative text-white">
@@ -61,21 +83,21 @@
             </nav>
             <nav aria-label="Connect">
               <div class="font-display text-xl uppercase tracking-tight text-primary-300">Connect</div>
-              <div class="mt-4 flex flex-col items-start gap-1">
-                <a class="group flex items-center gap-4 text-sm uppercase tracking-wide" href="#">
-                  <span class="fab fa-facebook text-2xl"></span>
+              <div class="mt-4 flex flex-col items-start gap-3">
+                <a class="group flex items-center gap-3 text-sm uppercase tracking-wide" href="#">
+                  <span class="fab fa-facebook"></span>
                   <span class="underline-offset-4 group-hover:underline">Facebook</span>
                 </a>
-                <a class="group flex items-center gap-4 text-sm uppercase tracking-wide" href="#">
-                  <span class="fab fa-twitter text-2xl"></span>
+                <a class="group flex items-center gap-3 text-sm uppercase tracking-wide" href="#">
+                  <span class="fab fa-twitter"></span>
                   <span class="underline-offset-4 group-hover:underline">Twitter</span>
                 </a>
-                <a class="group flex items-center gap-4 text-sm uppercase tracking-wide" href="#">
-                  <span class="fab fa-instagram text-2xl"></span>
+                <a class="group flex items-center gap-3 text-sm uppercase tracking-wide" href="#">
+                  <span class="fab fa-instagram"></span>
                   <span class="underline-offset-4 group-hover:underline">Instagram</span>
                 </a>
-                <a class="group flex items-center gap-4 text-sm uppercase tracking-wide" href="#">
-                  <span class="fab fa-tiktok text-2xl"></span>
+                <a class="group flex items-center gap-3 text-sm uppercase tracking-wide" href="#">
+                  <span class="fab fa-tiktok"></span>
                   <span class="underline-offset-4 group-hover:underline">TikTok</span>
                 </a>
               </div>
@@ -101,7 +123,7 @@ export default {
     const headerLogo = document.getElementById('header-logo')
 
     window.addEventListener('scroll', () => {
-      if (window.scrollY > window.innerHeight) {
+      if (window.scrollY > window.innerHeight / 2) {
         header.classList.add('scrolled')
         headerLogo.setAttribute('src', '/images/experientialist-logotype.png')
       } else {
