@@ -59,6 +59,7 @@ module.exports = {
         },
       },
       backgroundImage: {
+        resort: "url('/images/jake-irish-61OONDO7nrU-unsplash.jpg')",
         nature: "url('/images/john-lee-oMneOBYhJxY-unsplash.jpg')",
         beach: "url('/images/jcob-nasyr-hZPYwYR02Yo-unsplash.jpg')",
       },

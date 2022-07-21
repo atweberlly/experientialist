@@ -1,3 +1,13 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@layer components {
+  .header {
+    @apply fixed inset-x-0 top-0 z-10 bg-white/10  text-white backdrop-blur-md transition;
+  }
+
+  .header.scrolled {
+    @apply bg-white text-black backdrop-blur-none;
+  }
+}

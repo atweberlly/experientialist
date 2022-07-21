@@ -1,19 +1,11 @@
 <template>
   <div class="min-h-screen cursor-default antialiased">
-    <header>
+    <header class="header" id="header">
       <div class="container">
         <div class="flex items-center justify-between py-8">
-          <div>
-            <a class="inline-block" href="#">
-              <img class="h-auto w-48" src="/images/experientialist-logotype.png" alt="Experientialist" />
-            </a>
-          </div>
-          <button class="md:hidden">
-            <span class="sr-only">Open menu</span>
-            <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M4 8h16M4 16h16" />
-            </svg>
-          </button>
+          <a class="inline-block" href="#">
+            <img class="h-auto w-48" src="/images/experientialist-logotype-white.png" id="header-logo" alt="Experientialist" />
+          </a>
           <div class="hidden md:block">
             <nav class="flex items-center gap-4 text-sm uppercase lg:gap-8">
               <a href="#">About</a>
@@ -23,11 +15,17 @@
               <a class="border border-primary-300 px-4 py-3 text-primary-300" href="#">Plan your Experience</a>
             </nav>
           </div>
+          <button class="md:hidden" type="button">
+            <span class="sr-only">Open menu</span>
+            <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 8h16M4 16h16" />
+            </svg>
+          </button>
         </div>
       </div>
-      <div></div>
     </header>
     <main>
+      <section class="min-h-screen bg-resort bg-cover bg-center bg-no-repeat"></section>
       <section class="relative bg-nature bg-cover bg-center bg-no-repeat py-16 sm:py-20 md:py-24 lg:py-28">
         <div class="absolute inset-0 h-full w-full bg-gradient-to-r from-black/50 to-black/25" aria-hidden="true"></div>
         <div class="container relative text-white">
@@ -103,3 +101,22 @@
     </footer>
   </div>
 </template>
+
+<script>
+export default {
+  mounted: () => {
+    const header = document.getElementById('header')
+    const headerLogo = document.getElementById('header-logo')
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > window.innerHeight) {
+        header.classList.add('scrolled')
+        headerLogo.setAttribute('src', '/images/experientialist-logotype.png')
+      } else {
+        header.classList.remove('scrolled')
+        headerLogo.setAttribute('src', '/images/experientialist-logotype-white.png')
+      }
+    })
+  },
+}
+</script>
