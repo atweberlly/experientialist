@@ -38,7 +38,7 @@
             <p class="mt-4 text-secondary-400">Luxury experiences and unforgettable adventures await you without even lifting a finger.</p>
             <div class="mt-8">
               <a class="inline-flex items-center gap-1 bg-primary-300 px-4 py-3 text-sm tracking-wide text-white" href="#">
-                <span class="uppercase">Start planning now</span>
+                <span class="text-sm uppercase">Start planning now</span>
                 <svg class="h-5 w-5" fill="none" viewBox="0 0 20 20">
                   <path fill="currentColor" fill-rule="evenodd" d="M1.25 10a.625.625 0 0 1 .625-.625h14.741l-3.934-3.933a.626.626 0 1 1 .886-.885l5 5a.625.625 0 0 1 0 .885l-5 5a.626.626 0 1 1-.886-.885l3.934-3.932H1.875A.625.625 0 0 1 1.25 10Z" clip-rule="evenodd" />
                 </svg>
@@ -46,6 +46,41 @@
             </div>
           </div>
           <img class="mt-8 aspect-video object-cover object-center md:aspect-[16/6] lg:max-w-2xl xl:aspect-[16/4] xl:max-w-4xl" src="/images/willian-justen-de-vasconcellos-lrPBS8b4G14-unsplash.jpg" alt="Sea shore" />
+        </div>
+      </section>
+      <section class="py-8 sm:py-12 md:py-16 lg:py-20">
+        <div class="container">
+          <h2 class="text-center font-display text-4xl tracking-tight text-[#243a45] md:text-5xl xl:text-6xl">Each trip with us includes:</h2>
+          <div class="mt-8 grid grid-cols-1 gap-8 sm:mx-auto sm:max-w-sm md:mt-12 md:max-w-none md:grid-cols-2 lg:mt-16 lg:max-w-3xl xl:max-w-none xl:grid-cols-4">
+            <div class="relative overflow-hidden rounded-xl">
+              <img src="/images/bespoke-itineraries.jpg" alt="Bespoke Itineraries" />
+              <div class="absolute inset-x-0 bottom-0 p-8 text-white backdrop-blur-xl">
+                <h3 class="text-2xl font-bold uppercase">Bespoke Itineraries</h3>
+                <p class="mt-2 line-clamp-2">Every trip is custom tailored for you. Once you begin booking with us you will never want to go back to traveling the old way. We meet and get to know your needs and desires!</p>
+              </div>
+            </div>
+            <div class="relative overflow-hidden rounded-xl">
+              <img src="/images/general-influence.jpg" alt="General Influence" />
+              <div class="absolute inset-x-0 bottom-0 p-8 text-white backdrop-blur-xl">
+                <h3 class="text-2xl font-bold uppercase">General Influence</h3>
+                <p class="mt-2 line-clamp-2">We believe in building the world up through tourism. Protecting the natural and cultural heritage of each location, and helping the local areas thrive through travel and event dollars. We work with sustainable partners who care about the place they do business.</p>
+              </div>
+            </div>
+            <div class="relative overflow-hidden rounded-xl">
+              <img src="/images/exclusive-benefits.jpg" alt="Exclusive Benefits" />
+              <div class="absolute inset-x-0 bottom-0 p-8 text-white backdrop-blur-xl">
+                <h3 class="text-2xl font-bold uppercase">Exclusive Benefits</h3>
+                <p class="mt-2 line-clamp-2">We travel to some pretty adventuresome locations and we try EVERYTHING. This has allowed us to secure some pretty offbeat VIP benefits, amenities, access, and extras that you simply can't get on your own. We are happy to share with you!</p>
+              </div>
+            </div>
+            <div class="relative overflow-hidden rounded-xl">
+              <img src="/images/dedicated-agent.jpg" alt="Dedicated Agent" />
+              <div class="absolute inset-x-0 bottom-0 p-8 text-white backdrop-blur-xl">
+                <h3 class="text-2xl font-bold uppercase">Dedicated Agent</h3>
+                <p class="mt-2 line-clamp-2">Booking with an Experientialist is like having that awesome family member who knows just where to eat, sleep, and tour! Your experientialist will be with you every step of the way and they are trained in all thing's events, meetings and luxury travel.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <section class="relative bg-nature bg-cover bg-center bg-no-repeat py-16 sm:py-20 md:py-24 lg:py-28">
