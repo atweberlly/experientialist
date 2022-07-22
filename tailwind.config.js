@@ -63,7 +63,7 @@ module.exports = {
         resort: "url('/images/jake-irish-61OONDO7nrU-unsplash.jpg')",
         nature: "url('/images/john-lee-oMneOBYhJxY-unsplash.jpg')",
         beach: "url('/images/jcob-nasyr-hZPYwYR02Yo-unsplash.jpg')",
-        grainy: "url('/images/grainy.svg')"
+        grain: "url('/images/grain.png')",
       },
       backgroundPosition: {
         'top-16': 'center top -16rem',
