@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build && yarn format",
+    "build": "json-server data.json && vite build && yarn format",
     "preview": "vite preview",
     "lint": "eslint .",
     "format": "prettier --write ."
@@ -26,6 +26,8 @@
     "@tailwindcss/line-clamp": "^0.4.0",
     "@vitejs/plugin-vue": "^3.0.1",
     "autoprefixer": "^10.4.7",
+    "axios": "^0.27.2",
+    "json-server": "^0.17.0",
     "tailwindcss": "^3.1.6",
     "vite": "^3.0.2",
     "vue": "^3.2.37",
