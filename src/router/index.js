@@ -5,8 +5,13 @@ import ComingSoon from '../views/ComingSoon.vue'
 const routes = [
   {
     path: '/',
+    redirect: '/coming-soon',
+  },
+  {
+    path: '/home',
     name: 'Home Page',
     component: HomePage,
+
   },
   {
     path: '/coming-soon',

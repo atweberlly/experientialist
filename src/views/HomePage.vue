@@ -54,28 +54,28 @@
           <div class="mt-8 grid grid-cols-1 gap-8 sm:mx-auto sm:max-w-sm md:mt-12 md:max-w-none md:grid-cols-2 lg:mt-16 lg:max-w-3xl xl:max-w-none xl:grid-cols-4">
             <div class="relative overflow-hidden rounded-xl">
               <img src="/images/bespoke-itineraries.jpg" alt="Bespoke Itineraries" />
-              <div class="absolute inset-x-0 bottom-0 p-8 text-white backdrop-blur-xl">
+              <div class="absolute inset-x-0 bottom-0 p-8 text-white backdrop-blur-xl bg-grainy">
                 <h3 class="text-2xl font-bold uppercase">Bespoke Itineraries</h3>
                 <p class="mt-2 line-clamp-2">Every trip is custom tailored for you. Once you begin booking with us you will never want to go back to traveling the old way. We meet and get to know your needs and desires!</p>
               </div>
             </div>
             <div class="relative overflow-hidden rounded-xl">
               <img src="/images/general-influence.jpg" alt="General Influence" />
-              <div class="absolute inset-x-0 bottom-0 p-8 text-white backdrop-blur-xl">
+              <div class="absolute inset-x-0 bottom-0 p-8 text-white backdrop-blur-xl bg-grainy">
                 <h3 class="text-2xl font-bold uppercase">General Influence</h3>
                 <p class="mt-2 line-clamp-2">We believe in building the world up through tourism. Protecting the natural and cultural heritage of each location, and helping the local areas thrive through travel and event dollars. We work with sustainable partners who care about the place they do business.</p>
               </div>
             </div>
             <div class="relative overflow-hidden rounded-xl">
               <img src="/images/exclusive-benefits.jpg" alt="Exclusive Benefits" />
-              <div class="absolute inset-x-0 bottom-0 p-8 text-white backdrop-blur-xl">
+              <div class="absolute inset-x-0 bottom-0 p-8 text-white backdrop-blur-xl bg-grainy">
                 <h3 class="text-2xl font-bold uppercase">Exclusive Benefits</h3>
                 <p class="mt-2 line-clamp-2">We travel to some pretty adventuresome locations and we try EVERYTHING. This has allowed us to secure some pretty offbeat VIP benefits, amenities, access, and extras that you simply can't get on your own. We are happy to share with you!</p>
               </div>
             </div>
             <div class="relative overflow-hidden rounded-xl">
               <img src="/images/dedicated-agent.jpg" alt="Dedicated Agent" />
-              <div class="absolute inset-x-0 bottom-0 p-8 text-white backdrop-blur-xl">
+              <div class="absolute inset-x-0 bottom-0 p-8 text-white backdrop-blur-xl bg-grainy">
                 <h3 class="text-2xl font-bold uppercase">Dedicated Agent</h3>
                 <p class="mt-2 line-clamp-2">Booking with an Experientialist is like having that awesome family member who knows just where to eat, sleep, and tour! Your experientialist will be with you every step of the way and they are trained in all thing's events, meetings and luxury travel.</p>
               </div>
