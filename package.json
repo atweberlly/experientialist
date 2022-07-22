@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build && json-server data.json",
+    "build": "vite build && yarn format",
     "preview": "vite preview",
     "lint": "eslint .",
     "format": "prettier --write ."
