@@ -4,7 +4,7 @@
 
 @layer components {
   .header {
-    @apply fixed inset-x-0 top-0 z-10 bg-white/10  text-white backdrop-blur-md transition;
+    @apply fixed inset-x-0 top-0 z-10 bg-black/50 text-white backdrop-blur-md transition [@supports(backdrop-filter:blur(12px))]:bg-white/10;
   }
 
   .header.scrolled {
