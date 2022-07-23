@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen antialiased">
+  <div class="min-h-screen">
     <header class="header" id="header">
       <div class="container">
         <div class="flex items-center justify-between py-8">
@@ -54,32 +54,59 @@
           <div class="mt-8 grid grid-cols-1 gap-8 sm:mx-auto sm:max-w-sm md:mt-12 md:max-w-none md:grid-cols-2 lg:mt-16 lg:max-w-3xl xl:max-w-none xl:grid-cols-4">
             <div class="relative overflow-hidden rounded-xl">
               <img src="/images/bespoke-itineraries.jpg" alt="Bespoke Itineraries" />
-              <div class="absolute inset-x-0 bottom-0 bg-grain bg-cover bg-center bg-no-repeat p-8 text-white backdrop-blur-xl">
+              <div class="absolute inset-x-0 bottom-0 bg-black/50 bg-grain bg-cover bg-center bg-no-repeat p-8 text-white [@supports(backdrop-filter:blur(24px))]:backdrop-blur-xl">
                 <h3 class="text-2xl font-bold uppercase">Bespoke Itineraries</h3>
                 <p class="mt-2 line-clamp-2">Every trip is custom tailored for you. Once you begin booking with us you will never want to go back to traveling the old way. We meet and get to know your needs and desires!</p>
               </div>
             </div>
             <div class="relative overflow-hidden rounded-xl">
               <img src="/images/general-influence.jpg" alt="General Influence" />
-              <div class="absolute inset-x-0 bottom-0 bg-grain bg-cover bg-center bg-no-repeat p-8 text-white backdrop-blur-xl">
+              <div class="absolute inset-x-0 bottom-0 bg-black/50 bg-grain bg-cover bg-center bg-no-repeat p-8 text-white [@supports(backdrop-filter:blur(24px))]:backdrop-blur-xl">
                 <h3 class="text-2xl font-bold uppercase">General Influence</h3>
                 <p class="mt-2 line-clamp-2">We believe in building the world up through tourism. Protecting the natural and cultural heritage of each location, and helping the local areas thrive through travel and event dollars. We work with sustainable partners who care about the place they do business.</p>
               </div>
             </div>
             <div class="relative overflow-hidden rounded-xl">
               <img src="/images/exclusive-benefits.jpg" alt="Exclusive Benefits" />
-              <div class="absolute inset-x-0 bottom-0 bg-grain bg-cover bg-center bg-no-repeat p-8 text-white backdrop-blur-xl">
+              <div class="absolute inset-x-0 bottom-0 bg-black/50 bg-grain bg-cover bg-center bg-no-repeat p-8 text-white [@supports(backdrop-filter:blur(24px))]:backdrop-blur-xl">
                 <h3 class="text-2xl font-bold uppercase">Exclusive Benefits</h3>
                 <p class="mt-2 line-clamp-2">We travel to some pretty adventuresome locations and we try EVERYTHING. This has allowed us to secure some pretty offbeat VIP benefits, amenities, access, and extras that you simply can't get on your own. We are happy to share with you!</p>
               </div>
             </div>
             <div class="relative overflow-hidden rounded-xl">
               <img src="/images/dedicated-agent.jpg" alt="Dedicated Agent" />
-              <div class="absolute inset-x-0 bottom-0 bg-grain bg-cover bg-center bg-no-repeat p-8 text-white backdrop-blur-xl">
+              <div class="absolute inset-x-0 bottom-0 bg-black/50 bg-grain bg-cover bg-center bg-no-repeat p-8 text-white [@supports(backdrop-filter:blur(24px))]:backdrop-blur-xl">
                 <h3 class="text-2xl font-bold uppercase">Dedicated Agent</h3>
                 <p class="mt-2 line-clamp-2">Booking with an Experientialist is like having that awesome family member who knows just where to eat, sleep, and tour! Your experientialist will be with you every step of the way and they are trained in all thing's events, meetings and luxury travel.</p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section class="relative bg-resort-2 bg-cover bg-center bg-no-repeat py-8 text-white">
+        <div class="absolute inset-0 bg-secondary-500/50" aria-hidden="true" aria-label="Background overlay"></div>
+        <div class="container relative">
+          <h2 class="text-center font-display text-4xl tracking-tight">Don't just take our word for it...</h2>
+          <div class="swiper mt-8">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <figure class="rounded border border-white/30 bg-black/50 px-8 py-4 [@supports(backdrop-filter:blur(12px))]:backdrop-blur-md">
+                  <!-- <img src="" alt=""> -->
+                  <div class="mx-auto h-32 w-32 rounded-full bg-white" aria-label="Profile image placeholder"></div>
+                  <figcaption>
+                    <h3 class="mt-8 text-center font-display text-3xl tracking-tight text-primary-300">Jenny Wilson</h3>
+                    <div class="mt-1.5 text-center text-lg italic text-secondary-50">Canada</div>
+                    <p class="mt-2 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore error, temporibus illum dolores cupiditate corrupti totam aperiam unde? Cum iste, voluptates rerum id quidem officiis numquam tempore fugit labore dolorem.</p>
+                    <div>
+                      <!-- stars -->
+                    </div>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
           </div>
         </div>
       </section>
@@ -152,20 +179,42 @@
 </template>
 
 <script>
+import Swiper, { Navigation, Pagination } from 'swiper'
+
+const dynamicHeader = () => {
+  const header = document.getElementById('header')
+  const headerLogo = document.getElementById('header-logo')
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > window.innerHeight / 2) {
+      header.classList.add('scrolled')
+      headerLogo.setAttribute('src', '/images/experientialist-logotype.png')
+    } else {
+      header.classList.remove('scrolled')
+      headerLogo.setAttribute('src', '/images/experientialist-logotype-white.png')
+    }
+  })
+}
+
+const slider = () => {
+  const swiper = new Swiper('.swiper', {
+    modules: [Navigation, Pagination],
+    navigation: {
+      prevEl: '.swiper-button-prev',
+      nextEl: '.swiper-button-next',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  })
+
+  swiper.init()
+}
+
 export default {
   mounted: () => {
-    const header = document.getElementById('header')
-    const headerLogo = document.getElementById('header-logo')
-
-    window.addEventListener('scroll', () => {
-      if (window.scrollY > window.innerHeight / 2) {
-        header.classList.add('scrolled')
-        headerLogo.setAttribute('src', '/images/experientialist-logotype.png')
-      } else {
-        header.classList.remove('scrolled')
-        headerLogo.setAttribute('src', '/images/experientialist-logotype-white.png')
-      }
-    })
+    dynamicHeader()
+    slider()
   },
 }
 </script>
