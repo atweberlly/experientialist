@@ -6,6 +6,7 @@
           <a class="inline-block" href="#">
             <img class="h-auto w-48" src="/images/experientialist-logotype-white.png" id="header-logo" alt="Experientialist" />
           </a>
+
           <div class="hidden md:block">
             <nav class="flex items-center gap-4 text-sm uppercase lg:gap-8">
               <a href="#">About</a>
@@ -15,6 +16,7 @@
               <a class="border border-primary-300 px-4 py-3 text-primary-300 transition-colors hover:bg-primary-300 hover:text-white" href="#">Plan your Experience</a>
             </nav>
           </div>
+
           <button class="md:hidden" type="button">
             <span class="sr-only">Open menu</span>
             <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
@@ -24,8 +26,10 @@
         </div>
       </div>
     </header>
+
     <main>
       <section class="min-h-screen bg-resort bg-cover bg-center bg-no-repeat"></section>
+
       <section class="bg-secondary-50 py-8 sm:py-12 md:py-16 lg:py-20">
         <div class="container">
           <div class="sm:max-w-md">
@@ -48,6 +52,7 @@
           <img class="mt-8 aspect-video object-cover object-center md:aspect-[16/6] lg:max-w-2xl xl:aspect-[16/4] xl:max-w-4xl" src="/images/willian-justen-de-vasconcellos-lrPBS8b4G14-unsplash.jpg" alt="Sea shore" />
         </div>
       </section>
+
       <section class="py-8 sm:py-12 md:py-16 lg:py-20">
         <div class="container">
           <h2 class="text-center font-display text-4xl tracking-tight text-[#243a45] md:text-5xl xl:text-6xl">Each trip with us includes:</h2>
@@ -59,6 +64,7 @@
                 <p class="mt-2 line-clamp-2">Every trip is custom tailored for you. Once you begin booking with us you will never want to go back to traveling the old way. We meet and get to know your needs and desires!</p>
               </div>
             </div>
+
             <div class="relative overflow-hidden rounded-xl">
               <img src="/images/general-influence.jpg" alt="General Influence" />
               <div class="absolute inset-x-0 bottom-0 bg-black/50 bg-grain bg-cover bg-center bg-no-repeat p-8 text-white [@supports(backdrop-filter:blur(24px))]:backdrop-blur-xl">
@@ -66,6 +72,7 @@
                 <p class="mt-2 line-clamp-2">We believe in building the world up through tourism. Protecting the natural and cultural heritage of each location, and helping the local areas thrive through travel and event dollars. We work with sustainable partners who care about the place they do business.</p>
               </div>
             </div>
+
             <div class="relative overflow-hidden rounded-xl">
               <img src="/images/exclusive-benefits.jpg" alt="Exclusive Benefits" />
               <div class="absolute inset-x-0 bottom-0 bg-black/50 bg-grain bg-cover bg-center bg-no-repeat p-8 text-white [@supports(backdrop-filter:blur(24px))]:backdrop-blur-xl">
@@ -73,6 +80,7 @@
                 <p class="mt-2 line-clamp-2">We travel to some pretty adventuresome locations and we try EVERYTHING. This has allowed us to secure some pretty offbeat VIP benefits, amenities, access, and extras that you simply can't get on your own. We are happy to share with you!</p>
               </div>
             </div>
+
             <div class="relative overflow-hidden rounded-xl">
               <img src="/images/dedicated-agent.jpg" alt="Dedicated Agent" />
               <div class="absolute inset-x-0 bottom-0 bg-black/50 bg-grain bg-cover bg-center bg-no-repeat p-8 text-white [@supports(backdrop-filter:blur(24px))]:backdrop-blur-xl">
@@ -83,14 +91,30 @@
           </div>
         </div>
       </section>
-      <section class="relative bg-resort-2 bg-cover bg-center bg-no-repeat py-8 text-white">
+
+      <section class="relative bg-resort-2 bg-cover bg-center bg-no-repeat py-8 text-white sm:py-12 md:py-16 lg:py-20 xl:py-28">
         <div class="absolute inset-0 bg-secondary-500/50" aria-hidden="true" aria-label="Background overlay"></div>
         <div class="container relative">
-          <h2 class="text-center font-display text-4xl tracking-tight">Don't just take our word for it...</h2>
+          <h2 class="text-center font-display text-4xl tracking-tight lg:text-5xl xl:text-6xl">Don't just take our word for it...</h2>
           <div class="swiper mt-8">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <figure class="rounded border border-white/30 bg-black/50 px-8 py-4 [@supports(backdrop-filter:blur(12px))]:backdrop-blur-md">
+                <figure class="rounded border border-white/30 bg-black/50 p-8 lg:mx-auto lg:max-w-prose [@supports(backdrop-filter:blur(12px))]:backdrop-blur-md">
+                  <!-- <img src="" alt=""> -->
+                  <div class="mx-auto h-32 w-32 rounded-full bg-white" aria-label="Profile image placeholder"></div>
+                  <figcaption>
+                    <h3 class="mt-8 text-center font-display text-3xl tracking-tight text-primary-300">Jenny Wilson</h3>
+                    <div class="mt-1.5 text-center text-lg italic text-secondary-50">Canada</div>
+                    <p class="mt-2 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore error, temporibus illum dolores cupiditate corrupti totam aperiam unde? Cum iste, voluptates rerum id quidem officiis numquam tempore fugit labore dolorem.</p>
+                    <div>
+                      <!-- stars -->
+                    </div>
+                  </figcaption>
+                </figure>
+              </div>
+
+              <div class="swiper-slide">
+                <figure class="rounded border border-white/30 bg-black/50 p-8 lg:mx-auto lg:max-w-prose [@supports(backdrop-filter:blur(12px))]:backdrop-blur-md">
                   <!-- <img src="" alt=""> -->
                   <div class="mx-auto h-32 w-32 rounded-full bg-white" aria-label="Profile image placeholder"></div>
                   <figcaption>
@@ -104,12 +128,24 @@
                 </figure>
               </div>
             </div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+
+            <button class="swiper-prev-button absolute top-1/2 left-0 z-10 -translate-y-1/2 disabled:text-white/50" type="button">
+              <svg class="h-8 w-8" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m15 19-7-7 7-7" />
+              </svg>
+            </button>
+
+            <button class="swiper-next-button absolute top-1/2 right-0 z-10 -translate-y-1/2 disabled:text-white/50" type="button">
+              <svg class="h-8 w-8" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m9 5 7 7-7 7" />
+              </svg>
+            </button>
+
             <div class="swiper-pagination"></div>
           </div>
         </div>
       </section>
+
       <section class="relative bg-nature bg-cover bg-center bg-no-repeat py-16 sm:py-20 md:py-24 lg:py-28">
         <div class="absolute inset-0 h-full w-full bg-gradient-to-r from-black/50 to-black/25" aria-hidden="true"></div>
         <div class="container relative text-white">
@@ -126,6 +162,7 @@
         </div>
       </section>
     </main>
+
     <footer class="bg-secondary-500 py-12 text-secondary-50 md:py-16 lg:py-20">
       <div class="container">
         <div class="flex flex-col items-start gap-8 lg:flex lg:flex-row lg:justify-between">
@@ -133,6 +170,7 @@
             <img class="w-40" src="/images/experientialist-logotype-alt.png" alt="Experientialist" />
             <p class="mt-8 text-lg"><span class="uppercase">Expieriantalist</span> is a dedicated <span class="uppercase">mice</span> and Luxury Travel planning agency. We are uncompromising in experience, adventure, and passion.</p>
           </div>
+
           <div class="flex flex-col items-start gap-8 lg:flex-row lg:gap-12">
             <nav aria-label="Experience">
               <div class="font-display text-xl uppercase tracking-tight text-primary-300">Experience</div>
@@ -143,6 +181,7 @@
                 <a class="text-sm uppercase tracking-wide underline-offset-4 hover:underline" href="#">How we work</a>
               </div>
             </nav>
+
             <nav aria-label="Connect">
               <div class="font-display text-xl uppercase tracking-tight text-primary-300">Connect</div>
               <div class="mt-4 flex flex-col items-start gap-3">
@@ -166,6 +205,7 @@
             </nav>
           </div>
         </div>
+
         <div class="mt-12 flex flex-col gap-4 text-sm text-secondary-50/50 md:mt-16 lg:mt-20 lg:flex-row lg:justify-between">
           <p>Copyright &copy; 2022. <span class="uppercase">Experientialist</span>. All rights reserved.</p>
           <div class="flex flex-col items-start gap-4 md:flex-row lg:gap-8">
@@ -199,9 +239,10 @@ const dynamicHeader = () => {
 const slider = () => {
   const swiper = new Swiper('.swiper', {
     modules: [Navigation, Pagination],
+    spaceBetween: 32,
     navigation: {
-      prevEl: '.swiper-button-prev',
-      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-prev-button',
+      nextEl: '.swiper-next-button',
     },
     pagination: {
       el: '.swiper-pagination',
