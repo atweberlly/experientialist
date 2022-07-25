@@ -10,4 +10,12 @@
   .header.scrolled {
     @apply bg-white text-black backdrop-blur-none;
   }
+
+  .logotype-line {
+    @apply relative inline-block;
+  }
+
+  .logotype-line::after {
+    @apply absolute top-1/2 left-[calc(100%+1rem)] h-0.5 w-screen -translate-y-1/2 bg-secondary-400 content-[''];
+  }
 }

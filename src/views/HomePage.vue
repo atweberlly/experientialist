@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen">
+  <div class="min-h-screen antialiased">
     <header class="header" id="header">
       <div class="container">
         <div class="flex items-center justify-between py-8">
@@ -50,6 +50,30 @@
             </div>
           </div>
           <img class="mt-8 aspect-video object-cover object-center md:aspect-[16/6] lg:max-w-2xl xl:aspect-[16/4] xl:max-w-4xl" src="/images/willian-justen-de-vasconcellos-lrPBS8b4G14-unsplash.jpg" alt="Sea shore" />
+        </div>
+      </section>
+
+      <section class="overflow-hidden py-8 sm:py-12 md:py-16 lg:py-20">
+        <div class="container">
+          <div class="flex flex-col gap-16 lg:flex-row lg:items-center lg:gap-8 xl:gap-16">
+            <div class="lg:w-8/12">
+              <h2 class="text-center font-display text-3xl tracking-tight lg:text-4xl">Bring Out the Adventurer</h2>
+              <hr class="my-2 border-2 border-primary-200 md:my-4" />
+              <h3 class="text-center font-display text-2xl tracking-tight lg:text-3xl">Everything is Possible</h3>
+            </div>
+
+            <div class="lg:w-4/12">
+              <div class="logotype-line">
+                <svg class="h-auto w-64" fill="none" viewBox="0 0 312 24">
+                  <path fill="#243a45" fill-rule="evenodd" d="M14.274 10.951V8.78H4.38l-1.8 2.171h11.693ZM2.58 9.787V2.205h12.26V.001H0v23.416h15.342v-2.185H2.582V9.787Zm85.273 1.164V8.779h-9.894L76.16 10.95h11.693ZM76.16 9.787V2.205h12.26V0H73.58v23.415h15.342V21.23H76.16V9.787Zm67.879 1.164V8.779h-9.894l-1.798 2.172h11.692Zm-11.692-1.164V2.205h12.259V0h-14.84v23.415h15.342V21.23h-12.761V9.787Zm-73.023 1.718h-5.69l-1.799 2.129h7.49a7.357 7.357 0 0 0 2.78-.458 7.139 7.139 0 0 0 2.376-1.463 6.816 6.816 0 0 0 1.595-2.237 6.586 6.586 0 0 0 0-5.314 6.816 6.816 0 0 0-1.595-2.237A7.138 7.138 0 0 0 62.106.462a7.359 7.359 0 0 0-2.782-.458h-10.07V23.42h2.607V2.133h7.49a4.99 4.99 0 0 1 3.456 1.375 4.604 4.604 0 0 1 1.431 3.32c0 1.246-.515 2.44-1.431 3.32a4.992 4.992 0 0 1-3.457 1.376l-.026-.019Z" clip-rule="evenodd" />
+                  <path fill="#243a45" d="M100.188 11.515h5.689l.072.006c1.297 0 2.54-.495 3.457-1.375a4.606 4.606 0 0 0 1.431-3.32c0-1.246-.515-2.44-1.431-3.321a4.993 4.993 0 0 0-3.457-1.375H98.46V0h7.463a7.261 7.261 0 0 1 4.699 1.693 6.734 6.734 0 0 1 2.356 4.258 6.604 6.604 0 0 1-1.169 4.688 7.092 7.092 0 0 1-4.107 2.772l5.312 10.017h-2.894l-5.214-9.786h-6.517l1.799-2.128Z" />
+                  <path fill="#243a45" fill-rule="evenodd" d="M120.036 23.416h2.62V.001h-2.62v23.415Zm82.7 0h2.62V.001h-2.62v23.415Zm58.862.26h2.62V.261h-2.62v23.415Zm-21.16 0h14.084v-2.204h-11.51V.261h-2.574v23.415Zm-69.825-.022h.43V.001h-2.405v15.802c0 1.002.183 2.655.183 2.655s-1.004-1.378-1.688-2.173L152.794.007h-.652v23.415h2.477V7.614c0-.995-.215-2.648-.215-2.648s1.003 1.377 1.688 2.166l14.554 16.528-.033-.006Zm109.24.334c4.373 0 7.56-2.342 7.56-6.199 0-3.512-2.079-5.44-6.126-7.162l-1.956-.864c-2.724-1.202-3.871-2.135-3.871-4.2 0-2.067 1.466-3.338 3.871-3.338a5.117 5.117 0 0 1 2.637.655 4.847 4.847 0 0 1 1.88 1.893l2.079-1.252a7.035 7.035 0 0 0-2.778-2.656 7.41 7.41 0 0 0-3.818-.856c-3.656 0-6.42 2.235-6.42 5.634 0 3.275 1.904 4.89 5.377 6.405l1.956.864c3.05 1.309 4.562 2.505 4.562 4.89 0 2.504-2.222 3.994-5.051 3.994-3.441 0-5.13-1.69-6.277-3.65l-2.15 1.102c1.303 2.504 3.839 4.752 8.473 4.752l.052-.012Zm-94.194-.572h2.581V2.205h7.495V0H178.17v2.204h7.489v21.211Zm116.265.26h2.581V2.465H312V.26h-17.565v2.204h7.489v21.211Zm-279.426-.26h2.83l6.165-9.39a9.71 9.71 0 0 0 .756-1.654c.236.568.51 1.12.821 1.653l6.205 9.391h2.94l-8.428-12.74L40.781 0h-2.836l-4.803 7.3a8.85 8.85 0 0 0-.75 1.615 12.31 12.31 0 0 0-.788-1.615L26.76.001h-2.94l7.027 10.675-8.35 12.74Z" clip-rule="evenodd" />
+                  <path fill="#b88746" fill-rule="evenodd" d="m229.338 14.926 3.748 8.734h-2.62l-3.663-8.734 1.975 4.708-.046-.075-6.113-14.419-7.6 18.52h-2.796l8.616-19.816.163-.382.228-.52.235-.538L222.514 0h.431l6.393 14.926Z" clip-rule="evenodd" />
+                </svg>
+              </div>
+              <p class="mt-4 text-lg text-primary-500 lg:mt-6">The philosophy or approach to life that sees experience as the most valuable source of knowledge.</p>
+            </div>
+          </div>
         </div>
       </section>
 
