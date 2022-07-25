@@ -1,4 +1,7 @@
 @import 'fonts.css';
 @import '@fortawesome/fontawesome-free/css/brands.css';
 @import 'tailwind.css';
+
+/*! purgecss start ignore */
 @import 'swiper.css';
+/*! purgecss end ignore */
