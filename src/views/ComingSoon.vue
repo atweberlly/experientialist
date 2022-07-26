@@ -1,6 +1,5 @@
 <template>
-  <div class="min-h-screen min-w-xs bg-beach bg-cover bg-center bg-no-repeat antialiased md:bg-top lg:bg-top-16">
-    <div class="absolute inset-0 min-w-xs bg-secondary-500/50 md:hidden" aria-hidden="true" aria-label="Fullscreen background overlay"></div>
+  <div class="bg-beach min-h-screen min-w-xs bg-cover bg-center bg-no-repeat antialiased md:bg-top lg:bg-top-16">
     <div class="relative grid h-screen grid-cols-1 items-center py-8 text-white md:grid-cols-2 md:py-0">
       <div>
         <img class="mx-auto w-56 lg:w-64" src="/images/experientialist-logotype-alt.png" alt="Experientialist" />
