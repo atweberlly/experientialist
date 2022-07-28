@@ -49,7 +49,9 @@
               </a>
             </div>
           </div>
-          <img class="mt-8 aspect-video object-cover object-center md:aspect-[16/6] lg:max-w-2xl xl:aspect-[16/4] xl:max-w-4xl" src="/images/willian-justen-de-vasconcellos-lrPBS8b4G14-unsplash.jpg" alt="Sea shore" />
+          <div class="aspect-h-9 aspect-w-16 mt-8 md:aspect-h-6 md:-ml-8 xl:aspect-h-4">
+            <img class="object-cover object-center" src="/images/willian-justen-de-vasconcellos-lrPBS8b4G14-unsplash.jpg" alt="Sea shore" />
+          </div>
         </div>
       </section>
 

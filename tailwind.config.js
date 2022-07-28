@@ -1,4 +1,5 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
+const aspectRatio = require('@tailwindcss/aspect-ratio')
 const lineClamp = require('@tailwindcss/line-clamp')
 
 /** @type {import('tailwindcss').Config} */
@@ -85,5 +86,8 @@ module.exports = {
       },
     },
   },
-  plugins: [lineClamp],
+  corePlugins: {
+    aspectRatio: false,
+  },
+  plugins: [aspectRatio, lineClamp],
 }
