@@ -79,6 +79,30 @@
         </div>
       </section>
 
+      <section class="overflow-hidden bg-secondary-50 py-8 sm:py-12 md:py-16 lg:py-20">
+        <div class="container">
+          <div class="grid grid-cols-1 gap-12 sm:mx-auto sm:max-w-sm md:max-w-none md:grid-cols-2 lg:items-center xl:max-w-5xl xl:gap-16">
+            <div class="lg:relative lg:pl-16">
+              <div class="lg:absolute lg:bottom-0 lg:left-0 lg:z-20 lg:h-full lg:rotate-180">
+                <h3 class="heading-line font-display text-4xl uppercase tracking-tight text-secondary-200 lg:h-full lg:overflow-hidden lg:writing-rl">
+                  <span class="relative z-10 select-none bg-secondary-50 pr-4 lg:py-4 lg:pr-0">Welcome</span>
+                </h3>
+              </div>
+              <div class="img-bg mt-4 lg:mt-0">
+                <img class="relative z-10 rounded" src="/images/to-experience-is-to-know.jpg" alt="To experience is to know" />
+              </div>
+            </div>
+
+            <div>
+              <h2 class="font-display text-4xl tracking-tight text-primary-300 lg:text-5xl xl:text-6xl">To experience is to know</h2>
+              <p class="mt-4 text-lg text-secondary-300 lg:mt-6 xl:mt-8">We have been cultivating years of experiences and venturing into the most authentic places in the world in order to bring you the safest, most knowledgeable experiences your company and family can explore.</p>
+              <p class="mt-4 text-lg text-secondary-300 lg:mt-6 xl:mt-8">When you work with us, you can rest easy knowing that every detail is taken care of, all the adventure without sacrificing luxury is thought through, you can truly elevate your travel.</p>
+              <p class="mt-4 text-xl italic text-primary-500 lg:mt-6 xl:mt-8">We know exactly how to build the most lucrative itinerary that will engage even the most uncompromising spirit.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="py-8 sm:py-12 md:py-16 lg:py-20">
         <div class="container">
           <h2 class="text-center font-display text-4xl tracking-tight text-[#243a45] md:text-5xl xl:text-6xl">Each trip with us includes:</h2>
@@ -171,6 +195,41 @@
           </div>
         </div>
       </section>
+
+      <!-- <section class="">
+        <div class="">
+          <div class="grid grid-cols-1 lg:grid-cols-2">
+            <div class="relative overflow-hidden bg-secondary-500 px-8 py-8">
+              <h2 class="font-display text-4xl tracking-tight text-primary-200">Vacations, Meetings, Incentives...</h2>
+              <div class="aspect-h-1 aspect-w-1 mt-4">
+                <div class="bg-secondary-300"></div>
+              </div>
+              <div class="absolute inset-x-0 -bottom-48 w-full">
+                <svg class="text-primary-500/40" fill="none" viewBox="0 0 696 856">
+                  <path fill="currentColor" fill-rule="evenodd" d="M292.719 53.618c-20.343 12.6-60.368 37.638-68.887 43.897a.99.99 0 0 1-1.16.012l-18.48-12.647a1 1 0 0 0-1.272.118l-1.294 1.29a1 1 0 0 0-.043 1.371l12.914 14.568a1 1 0 0 1-.118 1.438l-5.188 4.229c-.837.682-.15 2.022.892 1.74l6.192-1.676a1 1 0 0 1 1.219.68l5.469 18.379a1 1 0 0 0 1.183.689l1.623-.374c.471-.109.797-.538.775-1.021l-.995-21.707a.98.98 0 0 1 .588-.958c21.65-9.356 65.112-28.328 76.435-33.978a1.006 1.006 0 0 1 1.435.703l13.253 64.07a1 1 0 0 0 1.418.695l6.447-3.151a1 1 0 0 0 .561-.913l-.291-20.806a.994.994 0 0 1 .459-.855c1.218-.778 4.511-2.878 6.172-3.891 2.062-1.257.379-5.335-1.743-5.154-.959.081-2.311.253-3.252.38a1.007 1.007 0 0 1-1.142-.953l-.448-10.708a1.002 1.002 0 0 1 .476-.896c1.254-.774 4.505-2.801 5.56-3.67 1.317-1.087.413-5.64-1.955-5.733-1.043-.04-2.676.279-3.819.542-.656.15-1.294-.353-1.274-1.026l.554-18.703a.991.991 0 0 1 .63-.903c13.082-5.135 38.967-18.5 44.724-33.594a.925.925 0 0 0-.778-1.256c-5.613-.583-21.659-.756-52.535 16.104a1.02 1.02 0 0 1-1.001-.012l-17.701-10.51a1 1 0 0 1-.149-1.609l1.966-1.732a.901.901 0 0 0 .211-.267c.76-1.508 1.124-4.37-2.874-5.104a.951.951 0 0 0-.605.095l-5.271 2.72a1.002 1.002 0 0 1-.934-.008l-9.029-4.868a1 1 0 0 1-.289-1.525l2.177-2.576a.896.896 0 0 0 .223-.627c-.091-1.592-.975-4.187-3.993-4.357a.917.917 0 0 0-.565.166l-5.059 3.449a1 1 0 0 1-1.148-.015L254.958.188a1 1 0 0 0-.917-.131l-5.755 2.028a1 1 0 0 0-.401 1.624l45.025 48.388a.988.988 0 0 1-.191 1.521Zm127.309 782.947c107.517 0 204.96-43.333 275.968-113.562C623.008 804.615 516.787 856 398.538 856 178.431 856 0 677.966 0 458.351 0 309.91 81.517 180.466 202.323 112.155 96.426 182.973 26.646 303.983 26.646 441.367c0 218.262 176.123 395.198 393.382 395.198Z" clip-rule="evenodd" />
+                </svg>
+              </div>
+            </div>
+
+            <div class="bg-primary-50 px-8 py-8">
+              <div class="aspect-h-9 aspect-w-16">
+
+                <div class="bg-primary-100"></div>
+              </div>
+              <h2 class="mt-8 font-display text-4xl tracking-tight text-primary-200">Bring the luxury</h2>
+              <p class="mt-4 text-secondary-300">Working with us for your company events, your personal luxury travel, or building that tantalizing incentive for your team, we have the experience and knowledge to make it one of the most unique experiences you could imagine.</p>
+              <div class="mt-4">
+                <a class="inline-flex items-center gap-1 border border-primary-500 px-4 py-2 text-sm text-primary-500" href="#">
+                  <span>Find out <span class="uppercase">why</span> you need us</span>
+                  <svg class="h-5 w-5" fill="none" viewBox="0 0 20 20">
+                    <path fill="currentColor" fill-rule="evenodd" d="M1.25 10a.625.625 0 0 1 .625-.625h14.741l-3.934-3.933a.626.626 0 1 1 .886-.885l5 5a.625.625 0 0 1 0 .885l-5 5a.626.626 0 1 1-.886-.885l3.934-3.932H1.875A.625.625 0 0 1 1.25 10Z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
 
       <section class="relative bg-nature bg-cover bg-center bg-no-repeat py-16 sm:py-20 md:py-24 lg:py-28">
         <div class="absolute inset-0 h-full w-full bg-gradient-to-r from-black/50 to-black/25" aria-hidden="true"></div>

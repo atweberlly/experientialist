@@ -1,4 +1,5 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
+const plugin = require('tailwindcss/plugin')
 const aspectRatio = require('@tailwindcss/aspect-ratio')
 const lineClamp = require('@tailwindcss/line-clamp')
 
@@ -73,14 +74,6 @@ module.exports = {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
         display: ['Old Standard TT', 'system-ui'],
       },
-      fontSize: {
-        '4xl': [
-          '2.25rem',
-          {
-            lineHeight: 1.25,
-          },
-        ],
-      },
       minWidth: {
         xs: '20rem',
       },
@@ -88,6 +81,20 @@ module.exports = {
   },
   corePlugins: {
     aspectRatio: false,
+    content: false,
   },
-  plugins: [aspectRatio, lineClamp],
+  plugins: [
+    plugin(({ addUtilities }) => {
+      addUtilities({
+        '.writing-rl': {
+          'writing-mode': 'vertical-rl',
+        },
+        '.content-none': {
+          content: "''",
+        },
+      })
+    }),
+    aspectRatio,
+    lineClamp,
+  ],
 }

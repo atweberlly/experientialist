@@ -4,7 +4,7 @@
 
 @layer components {
   .header {
-    @apply fixed inset-x-0 top-0 z-10 bg-black/50 text-white backdrop-blur-md transition [@supports(backdrop-filter:blur(12px))]:bg-white/10;
+    @apply fixed inset-x-0 top-0 z-50 bg-black/50 text-white backdrop-blur-md transition [@supports(backdrop-filter:blur(12px))]:bg-white/10;
   }
 
   .header.scrolled {
@@ -16,7 +16,23 @@
   }
 
   .logotype-line::after {
-    @apply absolute top-1/2 left-[calc(100%+1rem)] h-0.5 w-screen -translate-y-1/2 bg-secondary-400 content-[''];
+    @apply absolute top-1/2 left-[calc(100%+1rem)] h-0.5 w-screen -translate-y-1/2 bg-secondary-400 content-none;
+  }
+
+  .heading-line {
+    @apply relative;
+  }
+
+  .heading-line::after {
+    @apply absolute top-1/2 left-0 h-1 w-full -translate-y-1/2 bg-primary-200 content-none lg:left-1/2 lg:w-screen lg:-translate-x-1/2 lg:translate-y-0 lg:rotate-90;
+  }
+
+  .img-bg {
+    @apply relative;
+  }
+
+  .img-bg::after {
+    @apply absolute -right-8 -bottom-8 h-3/4 w-full rounded bg-primary-50 content-none;
   }
 }
 
