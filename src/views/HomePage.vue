@@ -163,7 +163,7 @@
         </div>
       </section>
 
-      <section class="relative bg-resort-2 bg-cover bg-center bg-no-repeat py-8 text-white sm:py-12 md:py-16 lg:py-20 xl:py-28">
+      <section class="relative bg-resort-2 bg-cover bg-center bg-no-repeat py-16 text-white lg:py-20 xl:py-28">
         <div class="absolute inset-0 bg-secondary-500/50" aria-hidden="true" aria-label="Background overlay"></div>
         <div class="container relative">
           <h2 class="text-center font-display text-4xl tracking-tight lg:text-5xl xl:text-6xl">Don't just take our word for it...</h2>
@@ -177,8 +177,22 @@
                     <h3 class="mt-8 text-center font-display text-3xl tracking-tight text-primary-300">Jenny Wilson</h3>
                     <div class="mt-1.5 text-center text-lg italic text-secondary-50">Canada</div>
                     <p class="mt-2 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore error, temporibus illum dolores cupiditate corrupti totam aperiam unde? Cum iste, voluptates rerum id quidem officiis numquam tempore fugit labore dolorem.</p>
-                    <div>
-                      <!-- stars -->
+                    <div class="mt-4 flex items-center justify-center gap-x-1.5">
+                      <svg class="h-6 w-6 text-warning-300" fill="none" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M5.418 24.658c-.58.316-1.236-.239-1.12-.948l1.246-7.567-5.285-5.37c-.493-.502-.237-1.42.425-1.52L8.03 8.14l3.276-6.923c.295-.624 1.095-.624 1.39 0l3.276 6.923 7.347 1.113c.662.1.918 1.018.423 1.52l-5.283 5.37 1.245 7.567c.117.71-.54 1.264-1.119.948L12 21.048l-6.584 3.61h.002Z" />
+                      </svg>
+                      <svg class="h-6 w-6 text-warning-300" fill="none" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M5.418 24.658c-.58.316-1.236-.239-1.12-.948l1.246-7.567-5.285-5.37c-.493-.502-.237-1.42.425-1.52L8.03 8.14l3.276-6.923c.295-.624 1.095-.624 1.39 0l3.276 6.923 7.347 1.113c.662.1.918 1.018.423 1.52l-5.283 5.37 1.245 7.567c.117.71-.54 1.264-1.119.948L12 21.048l-6.584 3.61h.002Z" />
+                      </svg>
+                      <svg class="h-6 w-6 text-warning-300" fill="none" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M5.418 24.658c-.58.316-1.236-.239-1.12-.948l1.246-7.567-5.285-5.37c-.493-.502-.237-1.42.425-1.52L8.03 8.14l3.276-6.923c.295-.624 1.095-.624 1.39 0l3.276 6.923 7.347 1.113c.662.1.918 1.018.423 1.52l-5.283 5.37 1.245 7.567c.117.71-.54 1.264-1.119.948L12 21.048l-6.584 3.61h.002Z" />
+                      </svg>
+                      <svg class="h-6 w-6 text-warning-300" fill="none" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M5.418 24.658c-.58.316-1.236-.239-1.12-.948l1.246-7.567-5.285-5.37c-.493-.502-.237-1.42.425-1.52L8.03 8.14l3.276-6.923c.295-.624 1.095-.624 1.39 0l3.276 6.923 7.347 1.113c.662.1.918 1.018.423 1.52l-5.283 5.37 1.245 7.567c.117.71-.54 1.264-1.119.948L12 21.048l-6.584 3.61h.002Z" />
+                      </svg>
+                      <svg class="h-6 w-6 text-warning-300" fill="none" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M5.418 24.658c-.58.316-1.236-.239-1.12-.948l1.246-7.567-5.285-5.37c-.493-.502-.237-1.42.425-1.52L8.03 8.14l3.276-6.923c.295-.624 1.095-.624 1.39 0l3.276 6.923 7.347 1.113c.662.1.918 1.018.423 1.52l-5.283 5.37 1.245 7.567c.117.71-.54 1.264-1.119.948L12 21.048l-6.584 3.61h.002Z" />
+                      </svg>
                     </div>
                   </figcaption>
                 </figure>
@@ -192,8 +206,22 @@
                     <h3 class="mt-8 text-center font-display text-3xl tracking-tight text-primary-300">Jenny Wilson</h3>
                     <div class="mt-1.5 text-center text-lg italic text-secondary-50">Canada</div>
                     <p class="mt-2 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore error, temporibus illum dolores cupiditate corrupti totam aperiam unde? Cum iste, voluptates rerum id quidem officiis numquam tempore fugit labore dolorem.</p>
-                    <div>
-                      <!-- stars -->
+                    <div class="mt-4 flex items-center justify-center gap-x-1.5">
+                      <svg class="h-6 w-6 text-warning-300" fill="none" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M5.418 24.658c-.58.316-1.236-.239-1.12-.948l1.246-7.567-5.285-5.37c-.493-.502-.237-1.42.425-1.52L8.03 8.14l3.276-6.923c.295-.624 1.095-.624 1.39 0l3.276 6.923 7.347 1.113c.662.1.918 1.018.423 1.52l-5.283 5.37 1.245 7.567c.117.71-.54 1.264-1.119.948L12 21.048l-6.584 3.61h.002Z" />
+                      </svg>
+                      <svg class="h-6 w-6 text-warning-300" fill="none" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M5.418 24.658c-.58.316-1.236-.239-1.12-.948l1.246-7.567-5.285-5.37c-.493-.502-.237-1.42.425-1.52L8.03 8.14l3.276-6.923c.295-.624 1.095-.624 1.39 0l3.276 6.923 7.347 1.113c.662.1.918 1.018.423 1.52l-5.283 5.37 1.245 7.567c.117.71-.54 1.264-1.119.948L12 21.048l-6.584 3.61h.002Z" />
+                      </svg>
+                      <svg class="h-6 w-6 text-warning-300" fill="none" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M5.418 24.658c-.58.316-1.236-.239-1.12-.948l1.246-7.567-5.285-5.37c-.493-.502-.237-1.42.425-1.52L8.03 8.14l3.276-6.923c.295-.624 1.095-.624 1.39 0l3.276 6.923 7.347 1.113c.662.1.918 1.018.423 1.52l-5.283 5.37 1.245 7.567c.117.71-.54 1.264-1.119.948L12 21.048l-6.584 3.61h.002Z" />
+                      </svg>
+                      <svg class="h-6 w-6 text-warning-300" fill="none" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M5.418 24.658c-.58.316-1.236-.239-1.12-.948l1.246-7.567-5.285-5.37c-.493-.502-.237-1.42.425-1.52L8.03 8.14l3.276-6.923c.295-.624 1.095-.624 1.39 0l3.276 6.923 7.347 1.113c.662.1.918 1.018.423 1.52l-5.283 5.37 1.245 7.567c.117.71-.54 1.264-1.119.948L12 21.048l-6.584 3.61h.002Z" />
+                      </svg>
+                      <svg class="h-6 w-6 text-warning-300" fill="none" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M5.418 24.658c-.58.316-1.236-.239-1.12-.948l1.246-7.567-5.285-5.37c-.493-.502-.237-1.42.425-1.52L8.03 8.14l3.276-6.923c.295-.624 1.095-.624 1.39 0l3.276 6.923 7.347 1.113c.662.1.918 1.018.423 1.52l-5.283 5.37 1.245 7.567c.117.71-.54 1.264-1.119.948L12 21.048l-6.584 3.61h.002Z" />
+                      </svg>
                     </div>
                   </figcaption>
                 </figure>
@@ -211,9 +239,9 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="m9 5 7 7-7 7" />
               </svg>
             </button>
-
-            <div class="swiper-pagination"></div>
           </div>
+
+          <div class="swiper-pagination"></div>
         </div>
       </section>
 
