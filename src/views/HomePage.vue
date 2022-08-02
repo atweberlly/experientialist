@@ -79,12 +79,12 @@
         </div>
       </section>
 
-      <section class="overflow-hidden bg-secondary-50 py-8 sm:py-12 md:py-16 lg:py-20">
+      <section class="overflow-hidden bg-secondary-50 py-8 sm:py-12 md:py-16 lg:py-20 xl:py-24">
         <div class="container">
-          <div class="grid grid-cols-1 gap-12 sm:mx-auto sm:max-w-sm md:max-w-none md:grid-cols-2 lg:items-center xl:max-w-5xl xl:gap-16">
-            <div class="lg:relative lg:pl-16">
+          <div class="grid grid-cols-1 gap-12 sm:mx-auto sm:max-w-sm md:max-w-none md:grid-cols-2 lg:items-center lg:gap-16 xl:max-w-5xl xl:gap-y-24">
+            <div class="md:order1 lg:relative lg:pl-16">
               <div class="lg:absolute lg:bottom-0 lg:left-0 lg:z-20 lg:h-full lg:rotate-180">
-                <h3 class="heading-line font-display text-4xl uppercase tracking-tight text-secondary-200 lg:h-full lg:overflow-hidden lg:writing-rl">
+                <h3 class="heading-line-1 font-display text-4xl uppercase tracking-tight text-secondary-200 lg:h-full lg:overflow-hidden lg:writing-rl">
                   <span class="relative z-10 select-none bg-secondary-50 pr-4 lg:py-4 lg:pr-0">Welcome</span>
                 </h3>
               </div>
@@ -93,11 +93,32 @@
               </div>
             </div>
 
-            <div>
+            <div class="md:order-2">
               <h2 class="font-display text-4xl tracking-tight text-primary-300 lg:text-5xl xl:text-6xl">To experience is to know</h2>
               <p class="mt-4 text-lg text-secondary-300 lg:mt-6 xl:mt-8">We have been cultivating years of experiences and venturing into the most authentic places in the world in order to bring you the safest, most knowledgeable experiences your company and family can explore.</p>
               <p class="mt-4 text-lg text-secondary-300 lg:mt-6 xl:mt-8">When you work with us, you can rest easy knowing that every detail is taken care of, all the adventure without sacrificing luxury is thought through, you can truly elevate your travel.</p>
               <p class="mt-4 text-xl italic text-primary-500 lg:mt-6 xl:mt-8">We know exactly how to build the most lucrative itinerary that will engage even the most uncompromising spirit.</p>
+            </div>
+
+            <div class="md:order-4 lg:relative">
+              <div>
+                <h3 class="heading-line-2 select-none text-right font-display text-2xl uppercase tracking-tight text-secondary-200 lg:text-4xl">
+                  <span class="relative z-10 bg-secondary-50 pl-2">From farm, land,</span>
+                </h3>
+                <div class="lg:absolute lg:top-12 lg:right-0 lg:z-20">
+                  <h3 class="select-none text-right font-display text-2xl uppercase tracking-tight text-secondary-200 lg:text-4xl lg:writing-rl">sea, and culture</h3>
+                </div>
+              </div>
+              <div class="img-bg mt-4 lg:mr-16 lg:mt-8">
+                <img class="relative z-10 rounded" src="/images/we-believe-in-generational-influence.jpg" alt="To experience is to know" />
+              </div>
+            </div>
+
+            <div class="md:order-3">
+              <h2 class="font-display text-4xl tracking-tight text-primary-300 lg:text-5xl xl:text-6xl">We believe in generational influence;</h2>
+              <p class="mt-4 text-lg text-secondary-300 lg:mt-6 xl:mt-8">We believe in insuring that your travel experience will give back to the local community with each visit. Our travel advisors make it a priority to visit each destination, resort, and activity that we recommend to our travellers.</p>
+              <p class="mt-4 text-lg text-secondary-300 lg:mt-6 xl:mt-8">We ask the questions some fear to ask. We keep our partners accountable for the sustainability of its location. Your travel dollars are accountable and responsible for supporting the community you travel to.</p>
+              <p class="mt-4 text-lg text-secondary-300 lg:mt-6 xl:mt-8">You can rest assured knowing that your money is well spent and that your influence will be felt in a positive way throughout the culture and generations to come when you travel the Experientialist way.</p>
             </div>
           </div>
         </div>

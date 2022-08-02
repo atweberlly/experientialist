@@ -19,12 +19,22 @@
     @apply absolute top-1/2 left-[calc(100%+1rem)] h-0.5 w-screen -translate-y-1/2 bg-secondary-400 content-none;
   }
 
-  .heading-line {
+  .heading-line-1,
+  .heading-line-2 {
     @apply relative;
   }
 
-  .heading-line::after {
-    @apply absolute top-1/2 left-0 h-1 w-full -translate-y-1/2 bg-primary-200 content-none lg:left-1/2 lg:w-screen lg:-translate-x-1/2 lg:translate-y-0 lg:rotate-90;
+  .heading-line-1::after,
+  .heading-line-2::after {
+    @apply absolute top-1/2 left-0 h-1 w-full -translate-y-1/2 bg-primary-200 content-none;
+  }
+
+  .heading-line-1::after {
+    @apply lg:left-1/2 lg:w-screen lg:-translate-x-1/2 lg:translate-y-0 lg:rotate-90;
+  }
+
+  .heading-line-2::after {
+    /* @apply absolute top-1/2 left-0 h-1 w-full -translate-y-1/2 bg-primary-200 content-none lg:left-1/2 lg:w-screen lg:-translate-x-1/2 lg:translate-y-0 lg:rotate-90; */
   }
 
   .img-bg {
