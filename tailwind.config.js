@@ -77,6 +77,10 @@ module.exports = {
       minWidth: {
         xs: '20rem',
       },
+      maxWidth: {},
+      screens: {
+        '3xl': '2000px',
+      },
     },
   },
   corePlugins: {
