@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomePage from '../views/HomePage.vue'
 import ComingSoon from '../views/ComingSoon.vue'
+import _404Page from '../views/404Page.vue'
 
 const routes = [
   {
@@ -14,6 +15,11 @@ const routes = [
   {
     path: '/coming-soon',
     component: ComingSoon,
+  },
+
+  {
+    path: '/:pathMatch(.*)*',
+    component: _404Page,
   },
 ]
 
