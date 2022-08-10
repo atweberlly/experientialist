@@ -31,7 +31,7 @@
     <div class="sticky-0 fixed top-0 hidden h-full w-full bg-opacity-80" id="learn-more">
       <div class="flex items-center justify-center py-48 px-4 md:px-28 2xl:mx-auto">
         <div class="relative flex w-96 flex-col items-center justify-center bg-secondary-500 py-16 px-4 md:w-auto md:px-24 xl:py-24 xl:px-36">
-          <div role="logo">
+          <div>
             <img class="mx-auto w-56 lg:w-64" src="/images/experientialist-logotype-alt.png" alt="Experientialist" />
           </div>
           <div class="mt-12">
@@ -66,11 +66,9 @@
 
 <script>
 import axios from 'axios'
+import { useMeta } from 'vue-meta'
 
 export default {
-  mounted: () => {
-    document.title = 'Coming Soon'
-  },
   data() {
     return {
       email: '',
@@ -100,6 +98,12 @@ export default {
       this.email = ''
       message.classList.toggle('hidden')
     },
+  },
+  mounted() {
+    useMeta({
+      title: 'Coming Soon',
+      description: 'Coming Soon',
+    })
   },
 }
 </script>
