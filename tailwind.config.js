@@ -66,6 +66,7 @@ module.exports = {
         nature: "url('/images/john-lee-oMneOBYhJxY-unsplash.jpg')",
         'resort-2': "url('/images/sara-dubler-Koei_7yYtIo-unsplash.jpg')",
         grain: "url('/images/grain.png')",
+        seashore: "url('/images/gaddafi-rusli-2ueUnL4CkV8-unsplash.jpg')",
       },
       backgroundPosition: {
         'top-16': 'center top -16rem',
