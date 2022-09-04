@@ -1,11 +1,11 @@
 {
   "private": true,
   "scripts": {
-    "dev": "vite",
     "build": "vite build && yarn format",
-    "preview": "vite preview",
+    "dev": "vite",
+    "format": "prettier --write .",
     "lint": "eslint .",
-    "format": "prettier --write ."
+    "preview": "vite preview"
   },
   "browserslist": [
     "> 0.5%",
@@ -21,6 +21,11 @@
     "Android >= 4.4",
     "Opera >= 30"
   ],
+  "prettier": {
+    "printWidth": 100,
+    "semi": false,
+    "singleQuote": true
+  },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.1.2",
     "@tailwindcss/aspect-ratio": "^0.4.0",
