@@ -3027,11 +3027,6 @@ vue-eslint-parser@^9.0.1:
     lodash "^4.17.21"
     semver "^7.3.6"
 
-vue-meta@^3.0.0-alpha.10:
-  version "3.0.0-alpha.10"
-  resolved "https://registry.yarnpkg.com/vue-meta/-/vue-meta-3.0.0-alpha.10.tgz#8aa7dee8ef43edda2633d52d2d4ca0ae03352222"
-  integrity sha512-rYeIGkhm1gKBcReEkPHiV6LV2Y6BZTMGTkGw1mQIZTxfFcVJL0srLZsL1zAmLeTGxMrlDYylMQEVSYRkDnwz3A==
-
 vue-router@^4.1.3:
   version "4.1.3"
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.1.3.tgz#f8dc7931a2253cc5aa9b740f8b98969d08ca283c"

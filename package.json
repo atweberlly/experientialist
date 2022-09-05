@@ -3,7 +3,7 @@
   "scripts": {
     "build": "vite build && yarn format",
     "dev": "vite",
-    "format": "prettier --write .",
+    "format": "prettier -w .",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -38,7 +38,6 @@
     "tailwindcss": "^3.1.8",
     "vite": "^3.0.5",
     "vue": "^3.2.37",
-    "vue-meta": "^3.0.0-alpha.10",
     "vue-router": "^4.1.3"
   },
   "devDependencies": {
