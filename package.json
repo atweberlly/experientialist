@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build": "vite build && yarn format",
+    "build": "vite build",
     "dev": "vite",
     "format": "prettier -w .",
     "lint": "eslint .",
@@ -50,7 +50,12 @@
     "eslint-plugin-vue": "^9.3.0",
     "postcss": "^8.4.16",
     "postcss-sort-media-queries": "^4.2.1",
+    "postcss-sorting": "^7.0.1",
     "prettier": "^2.7.1",
-    "prettier-plugin-tailwindcss": "^0.1.13"
+    "prettier-plugin-tailwindcss": "^0.1.13",
+    "stylelint": "^14.11.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-order": "^5.0.0",
+    "stylelint-prettier": "^2.0.0"
   }
 }
