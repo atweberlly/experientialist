@@ -1,6 +1,6 @@
 <template>
-  <div class="min-h-screen antialiased 3xl:mx-auto 3xl:max-w-screen-2xl">
-    <header class="header 3xl:mx-auto 3xl:max-w-screen-2xl" id="header">
+  <div class="min-h-screen min-w-xs antialiased">
+    <header class="header" id="header">
       <div class="container">
         <div class="flex items-center justify-between py-8">
           <a class="inline-block" href="#">
@@ -21,8 +21,9 @@
               <a
                 class="border border-primary-300 px-4 py-3 text-primary-300 transition-colors hover:bg-primary-300 hover:text-white"
                 href="#"
-                >Plan your Experience</a
               >
+                Plan your Experience
+              </a>
             </nav>
           </div>
 
