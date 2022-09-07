@@ -1,9 +1,9 @@
 @import 'swiper/css/bundle';
 
 .swiper-pagination {
-  @apply !-bottom-8;
+  bottom: -2rem !important;
 }
 
 .swiper-pagination-bullet {
-  @apply bg-white;
+  background-color: theme('colors.white');
 }
