@@ -1,6 +1,7 @@
 @import 'tailwindcss/components';
 @import 'components/header.css';
 @import 'components/modal.css';
+@import 'components/form.css';
 
 .logotype-line {
   position: relative;

@@ -7,3 +7,14 @@
 .swiper-pagination-bullet {
   background-color: theme('colors.white');
 }
+
+.event-swiper .swiper-pagination {
+  bottom: 0px !important;
+}
+
+.event-swiper .swiper-pagination-bullet {
+  border-radius: 2rem;
+  background-color: theme('colors.primary.300');
+  width: theme('spacing.8');
+  height: theme('spacing.2');
+}

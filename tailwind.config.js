@@ -67,6 +67,8 @@ module.exports = {
         'resort-2': "url('/images/sara-dubler-Koei_7yYtIo-unsplash.jpg')",
         grain: "url('/images/grain.png')",
         seashore: "url('/images/gaddafi-rusli-2ueUnL4CkV8-unsplash.jpg')",
+        seaside: "url('/images/shifaaz-shamoon-qtbV_8P_Ksk-unsplash.jpeg')",
+        lake: "url('images/pietro-de-grandi-T7K4aEPoGGk-unsplash.jpeg')",
       },
       backgroundPosition: {
         'top-16': 'center top -16rem',
@@ -85,7 +87,7 @@ module.exports = {
     content: false,
   },
   plugins: [
-    plugin(({ addUtilities }) => {
+    plugin(({ addUtilities, addVariant }) => {
       addUtilities({
         '.writing-rl': {
           'writing-mode': 'vertical-rl',
@@ -94,6 +96,7 @@ module.exports = {
           content: "''",
         },
       })
+      addVariant('supports-backdrop-blur', '@supports (backdrop-filter: blur(0))')
     }),
     aspectRatio,
     lineClamp,

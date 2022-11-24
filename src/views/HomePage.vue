@@ -27,7 +27,7 @@
             </nav>
           </div>
 
-          <button class="md:hidden" type="button">
+          <button class="md:hidden" type="button" id="mobile-nav-button">
             <span class="sr-only">Open menu</span>
             <svg
               class="h-6 w-6"
@@ -42,6 +42,42 @@
         </div>
       </div>
     </header>
+    <div
+      class="container fixed inset-y-0 z-50 h-full w-full bg-secondary-500 py-6 lg:hidden"
+      id="mobile-navigation"
+    >
+      <div class="flex justify-end">
+        <button id="mobile-close-button">
+          <svg class="h-8 w-8" viewBox="0 0 24 24">
+            <path
+              stroke="#fff"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="m6 6 12 12M6 18 18 6 6 18Z"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <nav
+        class="mt-10 flex flex-col gap-10 pl-4 text-left uppercase tracking-wide"
+        aria-label="Mobile navigation"
+      >
+        <img src="/images/experientialist-logotype-alt.png" alt="" class="h-auto w-40" />
+        <div class="grid-rows-auto mt-20 grid">
+          <a href="" class="block w-full border-t border-primary-100/20 py-5 text-white">Home</a>
+          <a href="" class="block w-full border-t border-primary-100/20 py-5 text-white">Home</a>
+          <a href="" class="block w-full border-y border-primary-100/20 py-5 text-white">Home</a>
+          <a
+            class="mt-10 block border border-primary-300/40 px-4 py-3 text-center text-primary-300 transition-colors hover:bg-primary-300 hover:text-white"
+            href="#"
+          >
+            Plan your Experience
+          </a>
+        </div>
+      </nav>
+    </div>
 
     <main>
       <section class="min-h-screen bg-resort bg-cover bg-center bg-no-repeat"></section>
@@ -79,16 +115,70 @@
               </a>
             </div>
           </div>
-          <div class="aspect-h-9 aspect-w-16 mt-8 md:aspect-h-6 md:-ml-8 xl:aspect-h-4">
-            <img
-              class="object-cover object-center"
-              src="/images/willian-justen-de-vasconcellos-lrPBS8b4G14-unsplash.jpg"
-              alt="Sea shore"
-            />
-          </div>
         </div>
       </section>
 
+      <section
+        class="relative bg-[url('/images/willian-justen-de-vasconcellos-lrPBS8b4G14-unsplash.jpg')] bg-cover bg-center bg-no-repeat py-16 text-white lg:py-20 xl:py-28"
+      >
+        <div class="container relative">
+          <h1 class="text-center font-display text-4xl text-black lg:text-5xl xl:text-6xl">
+            As Seen On
+          </h1>
+          <div class="swiper partner-swiper mt-8 lg:mt-16">
+            <div class="swiper-wrapper ml-16">
+              <div class="swiper-slide">
+                <img
+                  class="h-6 opacity-50 grayscale hover:opacity-100 hover:grayscale-0 lg:h-12"
+                  src="/images/partner-logo.static.svg"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="h-6 opacity-50 grayscale hover:opacity-100 hover:grayscale-0 lg:h-12"
+                  src="/images/partner-logo.static.svg"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="h-6 opacity-50 grayscale hover:opacity-100 hover:grayscale-0 lg:h-12"
+                  src="/images/partner-logo.static.svg"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="h-6 opacity-50 grayscale hover:opacity-100 hover:grayscale-0 lg:h-12"
+                  src="/images/partner-logo.static.svg"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="h-6 opacity-50 grayscale hover:opacity-100 hover:grayscale-0 lg:h-12"
+                  src="/images/partner-logo.static.svg"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="h-6 opacity-50 grayscale hover:opacity-100 hover:grayscale-0 lg:h-12"
+                  src="/images/partner-logo.static.svg"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="h-6 opacity-50 grayscale hover:opacity-100 hover:grayscale-0 lg:h-12"
+                  src="/images/partner-logo.static.svg"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="h-6 opacity-50 grayscale hover:opacity-100 hover:grayscale-0 lg:h-12"
+                  src="/images/partner-logo.static.svg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section class="overflow-hidden py-8 sm:py-12 md:py-16 lg:py-20">
         <div class="container">
           <div class="flex flex-col gap-16 lg:flex-row lg:items-center lg:gap-8 xl:gap-16">
@@ -716,7 +806,23 @@
 </template>
 
 <script>
-import Swiper, { Navigation, Pagination } from 'swiper'
+import Swiper, { Navigation, Pagination, Autoplay } from 'swiper'
+
+const mobileNav = () => {
+  const mobileNavButton = document.getElementById('mobile-nav-button')
+  const mobileNavMenu = document.getElementById('mobile-navigation')
+  const mobileCloseButton = document.getElementById('mobile-close-button')
+  if (mobileNavButton) {
+    mobileNavButton.addEventListener('click', () => {
+      if (mobileNavMenu) mobileNavMenu.classList.remove('hidden')
+    })
+  }
+  if (mobileCloseButton) {
+    mobileCloseButton.addEventListener('click', () => {
+      if (mobileNavMenu) mobileNavMenu.classList.add('hidden')
+    })
+  }
+}
 
 const dynamicHeader = () => {
   const header = document.getElementById('header')
@@ -755,14 +861,39 @@ const slider = () => {
     },
   })
 
+  const partnerSwiper = new Swiper('.partner-swiper', {
+    modules: [Autoplay],
+    slidesPerView: 5,
+    breakpoints: {
+      // when window width is >= 320px
+      320: {
+        slidesPerView: 3,
+      },
+      // when window width is >= 480px
+      480: {
+        slidesPerView: 3,
+      },
+      // when window width is >= 640px
+      640: {
+        slidesPerView: 5,
+      },
+    },
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+  })
+
   swiper.init()
   anotherSwiper.init()
+  partnerSwiper.init()
 }
 
 export default {
   mounted: () => {
     dynamicHeader()
     slider()
+    mobileNav()
   },
 }
 </script>
