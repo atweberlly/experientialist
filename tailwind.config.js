@@ -76,6 +76,7 @@ module.exports = {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
         display: ['Old Standard TT', 'system-ui'],
+        'poppins': ['Poppins'],
       },
       minWidth: {
         xs: '20rem',

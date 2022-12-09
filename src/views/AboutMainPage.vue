@@ -97,6 +97,70 @@
             </div>
           </div>
         </div>
+        <hr class="mx-auto block h-1 w-2/3 bg-primary-200 text-center" />
+      </section>
+
+      <section>
+        <h1 class="mb-28 text-center font-display text-5xl text-secondary-300">
+          Team Experientialist
+        </h1>
+        <div class="mb-40 grid grid-cols-2 gap-4 px-1 md:grid-cols-3 md:gap-7 lg:grid-cols-5">
+          <div class="text-left">
+            <img
+              class="mx-auto block max-h-80 w-full rounded-lg text-center"
+              src="/images/natasha-6.png"
+            />
+            <p class="mt-3 font-display text-xl">Natasha</p>
+            <p class="text-xs">CEO</p>
+            <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
+              Check my bio
+            </a>
+          </div>
+          <div class="text-left">
+            <img
+              class="mx-auto block max-h-80 w-full rounded-lg text-center"
+              src="/images/Dale-1.png"
+            />
+            <p class="mt-3 font-display text-xl">Dale Botbijl</p>
+            <p class="text-xs">Sales Manager</p>
+            <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
+              Check my bio
+            </a>
+          </div>
+          <div class="text-left">
+            <img
+              class="mx-auto block max-h-80 w-full rounded-lg text-center"
+              src="/images/Yvette-1.png"
+            />
+            <p class="mt-3 font-display text-xl">Yvette Marasigan</p>
+            <p class="text-xs">Development</p>
+            <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
+              Check my bio
+            </a>
+          </div>
+          <div class="text-left">
+            <img
+              class="mx-auto block max-h-80 w-full rounded-lg text-center"
+              src="/images/Jonah-1.png"
+            />
+            <p class="mt-3 font-display text-xl">Jonah Castro</p>
+            <p class="text-xs">Development</p>
+            <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
+              Check my bio
+            </a>
+          </div>
+          <div class="text-left">
+            <img
+              class="mx-auto block max-h-80 w-full rounded-lg text-center"
+              src="/images/Stephanie-1.png"
+            />
+            <p class="mt-3 font-display text-xl">Stephanie Aurelio</p>
+            <p class="text-xs">Development</p>
+            <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
+              Check my bio
+            </a>
+          </div>
+        </div>
       </section>
 
       <section class="relative block overflow-hidden">
@@ -104,7 +168,7 @@
           <img
             src="/images/david-marcu-78A265wPiO4-unsplash.png"
             alt="cloud"
-            class="absolute bottom-0 left-0 h-full w-full bg-landscape bg-cover bg-center bg-no-repeat object-cover"
+            class="bg-landscape absolute bottom-0 left-0 h-full w-full bg-cover bg-center bg-no-repeat object-cover"
           />
           <img
             src="/images/Cloud.png"
@@ -113,50 +177,46 @@
             data-speed=".4"
           />
         </div>
-        <div
-          class="relative mx-auto max-w-3xl place-items-center pt-[40rem] pb-20 lg:pt-[50rem]"
-        >
-        <div class="container">
-            
-          <h5 class="text-center font-bold uppercase text-secondary-500">
-            make every experience count!
-          </h5>
-          <h1 class="mt-4 text-center font-display text-3xl text-secondary-500">
-            Receive helpful tips and inspiration in your inbox
-          </h1>
-          <div class="mt-8 grid grid-cols-1 gap-4 lg:grid-cols-2">
-            <div>
-              <label class="form-label" for="name">First Name</label>
-              <input class="form-input" id="name" type="text" placeholder="" />
-            </div>
-            <div>
-              <label class="form-label" for="name">Last Name</label>
-              <input class="form-input" id="name" type="text" placeholder="" />
-            </div>
-            <div>
-              <label class="form-label" for="name">Email</label>
-              <input class="form-input" id="name" type="text" placeholder="" />
-            </div>
-            <div class="block">
-              <div class="mt-2">
-                <label class="inline-flex items-center gap-4">
-                  <div class="input-round">
-                    <input type="checkbox" checked id="checkbox" />
-                    <label for="checkbox"></label>
-                  </div>
-                  <span class="ml-2">I’m happy to receive emails from Experientialist</span>
-                </label>
+        <div class="relative mx-auto max-w-3xl place-items-center pt-[40rem] pb-20 lg:pt-[50rem]">
+          <div class="container">
+            <h5 class="text-center font-bold uppercase text-secondary-500">
+              make every experience count!
+            </h5>
+            <h1 class="mt-4 text-center font-display text-3xl text-secondary-500">
+              Receive helpful tips and inspiration in your inbox
+            </h1>
+            <div class="mt-8 grid grid-cols-1 gap-4 lg:grid-cols-2">
+              <div>
+                <label class="form-label" for="name">First Name</label>
+                <input class="form-input" id="name" type="text" placeholder="" />
+              </div>
+              <div>
+                <label class="form-label" for="name">Last Name</label>
+                <input class="form-input" id="name" type="text" placeholder="" />
+              </div>
+              <div>
+                <label class="form-label" for="name">Email</label>
+                <input class="form-input" id="name" type="text" placeholder="" />
+              </div>
+              <div class="block">
+                <div class="mt-2">
+                  <label class="inline-flex items-center gap-4">
+                    <div class="input-round">
+                      <input type="checkbox" checked id="checkbox" />
+                      <label for="checkbox"></label>
+                    </div>
+                    <span class="ml-2">I’m happy to receive emails from Experientialist</span>
+                  </label>
+                </div>
               </div>
             </div>
+            <button
+              class="m-auto mt-5 block w-full bg-primary-300 px-4 py-3 text-sm uppercase tracking-wide text-white lg:w-auto"
+              type="submit"
+            >
+              Subscribe
+            </button>
           </div>
-          <button
-            class="m-auto mt-5 block w-full bg-primary-300 px-4 py-3 text-sm uppercase tracking-wide text-white lg:w-auto"
-            type="submit"
-          >
-            Subscribe
-          </button>
-
-         </div>
         </div>
       </section>
 
