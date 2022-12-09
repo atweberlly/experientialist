@@ -47,13 +47,13 @@
       class="z-50 h-fit w-fit top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 fixed top"
     >
       <div id="popup" class="h-full w-full bg-secondary-500 px-20 py-8">
-      <button class="text-white absolute top-3 right-5" id="popup-close">
+      <a class="text-white absolute top-3 right-5" id="popup-close">
            <img
            class="w-6"
             src="/images/akar-icons_cross.png"
             alt="close"
           />
-        </button>
+        </a>
         <center>
           <img
             class="mx-auto block w-48 text-center"
