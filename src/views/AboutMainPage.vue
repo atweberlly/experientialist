@@ -52,7 +52,7 @@
           </h1>
         </div>
       </section>
-      <section class="bg-white py-16 lg:py-20">
+      <section class="bg-white pt-16 lg:pt-20">
         <div class="container">
           <img
             src="/images/about-main.png"
@@ -94,6 +94,33 @@
                 Our agents have the passion and knowledge to make your trip or event one of the most
                 unique experiences you could imagine. We believe in your adventure!
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mb-36">
+        <div class="mb-52 lg:p-10">
+          <div
+            class="container mt-32 h-fit w-fit flex-none bg-slate-50 py-10 px-14 md:mt-0 md:flex md:max-h-100 md:py-0 md:pb-56 lg:gap-20 lg:px-28"
+          >
+            <div class="mt-16 md:w-100">
+              <h1 class="font-display text-4xl tracking-tight text-primary-300 md:text-5xl">
+                We will make it unforgettable!
+              </h1>
+
+              <p class="mt-5 text-secondary-300 md:mt-8">
+                Be it an event, tour, retreat, family reunion, wedding, or that much needed
+                vacation, we will work with you to make it unforgettable!<br /><br />Ask your agent
+                about some of their stories, they are happy and excited to share some must see
+                opportunities! Our model is to educate, experience, explore, and share.
+              </p>
+            </div>
+            <div class="mt-24">
+              <img
+                class="mx-auto block max-h-96 min-w-max rounded-lg text-center md:max-h-100"
+                src="/images/about-8.png"
+              />
             </div>
           </div>
         </div>
