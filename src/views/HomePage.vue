@@ -44,15 +44,11 @@
     </header>
     <div
       id="popup-wrapper"
-      class="z-50 h-fit w-fit top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 fixed top"
+      class="top fixed top-2/4 left-2/4 z-50 h-fit w-5/6 md:w-fit -translate-x-2/4 -translate-y-2/4"
     >
-      <div id="popup" class="h-full w-full bg-secondary-500 px-20 py-8">
-      <a class="text-white absolute top-3 right-5" id="popup-close">
-           <img
-           class="w-6"
-            src="/images/akar-icons_cross.png"
-            alt="close"
-          />
+      <div id="popup" class="h-full w-full bg-secondary-500 px-6 md:px-20 py-8">
+        <a class="absolute top-3 right-5 text-white" id="popup-close">
+          <img class="w-6" src="/images/akar-icons_cross.png" alt="close" />
         </a>
         <center>
           <img
@@ -61,13 +57,16 @@
             alt="Experientialist Logo"
           />
           <img
-            class="mx-auto block w-96 my-8 text-center"
+            class="mx-auto my-8 block w-96 text-center"
             src="/images/christmas-promo.png"
             alt="Cristmas Promo banner"
           />
           <div>
-           <h5 class="text-xl text-white font-poppins">Get a <span class="text-warning-300 font-bold">FREE</span> excursion on your next great adventure when you book before December 31st for travel in 2023!</h5>
-            <p class="mt-5 text-xs px-10 text-white">
+            <h5 class="font-poppins text-xl text-white">
+              Get a <span class="font-bold text-warning-300">FREE</span> excursion on your next
+              great adventure when you book before December 31st for travel in 2023!
+            </h5>
+            <p class="mt-5 px-10 text-xs text-white">
               * Excursion is limited to availability, and from select options provided by your
               agent, 2 PAX per $8000CAD spent
             </p>
@@ -598,6 +597,56 @@
         </div>
       </section>
 
+      <section>
+        <h1 class="my-16 md:my-28 text-center font-display text-5xl text-secondary-300">Our Partners</h1>
+        <div
+          class="mb-16 md:mb-40 grid grid-cols-3 gap-x-5 gap-y-16 px-6 md:grid-cols-4 md:gap-x-16 md:px-20 lg:gap-x-32 lg:px-40"
+        >
+          <div>
+            <img class="mx-auto block max-h-52 w-full" src="/images/partners-logo-1.png" />
+          </div>
+          <div>
+            <img class="mx-auto block max-h-52 w-full" src="/images/partners-logo-2.png" />
+          </div>
+          <div>
+            <img class="mx-auto block max-h-72 w-full" src="/images/partners-logo-3.png" />
+          </div>
+          <div>
+            <img class="mx-auto block max-h-72 w-full" src="/images/partners-logo-4.png" />
+          </div>
+          <div>
+            <img class="mx-auto block max-h-72 w-full" src="/images/partners-logo-5.png" />
+          </div>
+          <div>
+            <img class="mx-auto block max-h-72 w-full" src="/images/partners-logo-6.png" />
+          </div>
+          <div>
+            <img class="mx-auto block max-h-72 w-full" src="/images/partners-logo-7.png" />
+          </div>
+          <div>
+            <img class="mx-auto block max-h-72 w-full" src="/images/partners-logo-8.png" />
+          </div>
+          <div>
+            <img class="mx-auto block max-h-72 w-full" src="/images/partners-logo-9.png" />
+          </div>
+          <div>
+            <img class="mx-auto block max-h-72 w-full" src="/images/partners-logo-10.png" />
+          </div>
+          <div>
+            <img class="mx-auto block max-h-72 w-full" src="/images/partners-logo-11.png" />
+          </div>
+          <div>
+            <img class="mx-auto block max-h-72 w-full" src="/images/partners-logo-12.png" />
+          </div>
+          <div>
+            <img class="mx-auto block max-h-72 w-full" src="/images/partners-logo-13.png" />
+          </div>
+          <div>
+            <img class="mx-auto block max-h-72 w-full" src="/images/partners-logo-14.png" />
+          </div>
+        </div>
+      </section>
+
       <section class="">
         <div class="">
           <div class="grid grid-cols-1 lg:grid-cols-2">
@@ -936,9 +985,9 @@ export default {
   },
 }
 
-window.onload = function() {
-  document.getElementById('popup-close').onclick = function() {
+window.onload = function () {
+  document.getElementById('popup-close').onclick = function () {
     document.getElementById('popup-wrapper').style.display = 'none'
-  };
-};
+  }
+}
 </script>

@@ -126,66 +126,60 @@
         </div>
         <hr class="mx-auto block h-1 w-2/3 bg-primary-200 text-center" />
       </section>
-
-      <section>
-        <h1 class="mb-28 text-center font-display text-5xl text-secondary-300">
+      <section class="bg-white py-8 sm:py-12 md:py-16 lg:py-20">
+        <h1 class="text-center font-display text-4xl tracking-tight text-secondary-300 md:text-5xl">
           Team Experientialist
         </h1>
-        <div class="mb-40 grid grid-cols-2 gap-4 px-1 md:grid-cols-3 md:gap-7 lg:grid-cols-5">
-          <div class="text-left">
-            <img
-              class="mx-auto block max-h-80 w-full rounded-lg text-center"
-              src="/images/natasha-6.png"
-            />
-            <p class="mt-3 font-display text-xl">Natasha</p>
-            <p class="text-xs">CEO</p>
-            <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
+        <div class="swiper team-swiper mt-8 !px-8 lg:mt-16">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="/images/natasha-6.png" alt="" class="max-h-80" />
+              <h2 class="mt-4 font-display text-2xl md:text-3xl">Natasha</h2>
+              <p class="mt-4">CEO</p>
+              <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
               Check my bio
             </a>
-          </div>
-          <div class="text-left">
-            <img
-              class="mx-auto block max-h-80 w-full rounded-lg text-center"
-              src="/images/Dale-1.png"
-            />
-            <p class="mt-3 font-display text-xl">Dale Botbijl</p>
-            <p class="text-xs">Sales Manager</p>
-            <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
+            </div>
+            <div class="swiper-slide">
+              <img src="/images/Dale-1.png" alt="" class="max-h-80" />
+              <h2 class="mt-4 font-display text-2xl md:text-3xl">Dale Botbijl</h2>
+              <p class="mt-4">Sales Manager</p>
+              <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
               Check my bio
             </a>
-          </div>
-          <div class="text-left">
-            <img
-              class="mx-auto block max-h-80 w-full rounded-lg text-center"
-              src="/images/Yvette-1.png"
-            />
-            <p class="mt-3 font-display text-xl">Yvette Marasigan</p>
-            <p class="text-xs">Development</p>
-            <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
+            </div>
+            <div class="swiper-slide">
+              <img src="/images/Yvette-1.png" alt="" class="max-h-80" />
+              <h2 class="mt-4 font-display text-2xl md:text-3xl">Yvette</h2>
+              <p class="mt-4">Development</p>
+              <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
               Check my bio
             </a>
-          </div>
-          <div class="text-left">
-            <img
-              class="mx-auto block max-h-80 w-full rounded-lg text-center"
-              src="/images/Jonah-1.png"
-            />
-            <p class="mt-3 font-display text-xl">Jonah Castro</p>
-            <p class="text-xs">Development</p>
-            <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
+            </div>
+            <div class="swiper-slide">
+              <img src="/images/Jonah-1.png" alt="" class="max-h-80" />
+              <h2 class="mt-4 font-display text-2xl md:text-3xl">Jonah</h2>
+              <p class="mt-4">Development</p>
+              <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
               Check my bio
             </a>
-          </div>
-          <div class="text-left">
-            <img
-              class="mx-auto block max-h-80 w-full rounded-lg text-center"
-              src="/images/Stephanie-1.png"
-            />
-            <p class="mt-3 font-display text-xl">Stephanie Aurelio</p>
-            <p class="text-xs">Development</p>
-            <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
+            </div>
+            <div class="swiper-slide">
+              <img src="/images/Stephanie-1.png" alt="" class="max-h-80" />
+              <h2 class="mt-4 font-display text-2xl md:text-wxl">Stephanie</h2>
+              <p class="mt-4">Development</p>
+              <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
               Check my bio
             </a>
+            </div>
+            <div class="swiper-slide">
+              <img src="/images/Natasha-1.png" alt="" class="max-h-80" />
+              <h2 class="mt-4 font-display text-2xl md:text-3xl">Natasha</h2>
+              <p class="mt-4">CEO</p>
+              <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
+              Check my bio
+            </a>
+            </div>
           </div>
         </div>
       </section>
@@ -436,6 +430,7 @@ const animateCloud = () => {
 
 export default {
   mounted: () => {
+    slider()
     mobileNav()
     animateCloud()
   },
