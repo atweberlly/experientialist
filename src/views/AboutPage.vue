@@ -42,45 +42,6 @@
         </div>
       </div>
     </header>
-    <div
-      id="popup-wrapper"
-      class="z-50 h-fit w-fit top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 fixed top"
-    >
-      <div id="popup" class="h-full w-full bg-secondary-500 px-20 py-8">
-      <a class="text-white absolute top-3 right-5" id="popup-close">
-           <img
-           class="w-6"
-            src="/images/akar-icons_cross.png"
-            alt="close"
-          />
-        </a>
-        <center>
-          <img
-            class="mx-auto block w-48 text-center"
-            src="/images/experientialist-logotype-alt.png"
-            alt="Experientialist Logo"
-          />
-          <img
-            class="mx-auto block w-96 my-8 text-center"
-            src="/images/christmas-promo.png"
-            alt="Cristmas Promo banner"
-          />
-          <div>
-           <h5 class="text-xl text-white font-poppins">Get a <span class="text-warning-300 font-bold">FREE</span> excursion on your next great adventure when you book before December 31st for travel in 2023!</h5>
-            <p class="mt-5 text-xs px-10 text-white">
-              * Excursion is limited to availability, and from select options provided by your
-              agent, 2 PAX per $8000CAD spent
-            </p>
-            <p class="mt-5 text-xs text-white">*Only valid for bookings over $8,000 CAD</p>
-            <button
-              class="mx-auto mt-10 block h-fit w-fit bg-primary-300 px-3 py-2 text-center text-white"
-            >
-              Book Now
-            </button>
-          </div>
-        </center>
-      </div>
-    </div>
     <main>
       <section class="min-h-screen bg-seaside bg-cover bg-center bg-no-repeat"></section>
       <section class="bg-secondary-500 py-8 sm:py-12 md:py-16 lg:py-20">
@@ -335,58 +296,76 @@
         <div class="swiper team-swiper mt-8 !px-8 lg:mt-16">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img src="/images/team-1.png" alt="" class="w-full" />
-              <h2 class="mt-4 font-display text-2xl md:text-3xl">John Doe</h2>
-              <p class="mt-4">Position</p>
+              <img src="/images/natasha-6.png" alt="" class="max-h-80" />
+              <h2 class="mt-4 font-display text-2xl md:text-3xl">Natasha</h2>
+              <p class="mt-4">CEO</p>
               <p class="mt-4 text-black/80">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum in enim, lorem
                 pellent
               </p>
+              <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
+              Check my bio
+            </a>
             </div>
             <div class="swiper-slide">
-              <img src="/images/team-1.png" alt="" class="w-full" />
-              <h2 class="mt-4 font-display text-2xl md:text-3xl">John Doe</h2>
-              <p class="mt-4">Position</p>
+              <img src="/images/Dale-1.png" alt="" class="max-h-80" />
+              <h2 class="mt-4 font-display text-2xl md:text-3xl">Dale Botbijl</h2>
+              <p class="mt-4">Sales Manager</p>
               <p class="mt-4 text-black/80">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum in enim, lorem
                 pellent
               </p>
+              <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
+              Check my bio
+            </a>
             </div>
             <div class="swiper-slide">
-              <img src="/images/team-1.png" alt="" class="w-full" />
-              <h2 class="mt-4 font-display text-2xl md:text-3xl">John Doe</h2>
-              <p class="mt-4">Position</p>
+              <img src="/images/Yvette-1.png" alt="" class="max-h-80" />
+              <h2 class="mt-4 font-display text-2xl md:text-3xl">Yvette</h2>
+              <p class="mt-4">Development</p>
               <p class="mt-4 text-black/80">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum in enim, lorem
                 pellent
               </p>
+              <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
+              Check my bio
+            </a>
             </div>
             <div class="swiper-slide">
-              <img src="/images/team-1.png" alt="" class="w-full" />
-              <h2 class="mt-4 font-display text-2xl md:text-3xl">John Doe</h2>
-              <p class="mt-4">Position</p>
+              <img src="/images/Jonah-1.png" alt="" class="max-h-80" />
+              <h2 class="mt-4 font-display text-2xl md:text-3xl">Jonah</h2>
+              <p class="mt-4">Development</p>
               <p class="mt-4 text-black/80">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum in enim, lorem
                 pellent
               </p>
+              <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
+              Check my bio
+            </a>
             </div>
             <div class="swiper-slide">
-              <img src="/images/team-1.png" alt="" class="w-full" />
-              <h2 class="mt-4 font-display text-2xl md:text-3xl">John Doe</h2>
-              <p class="mt-4">Position</p>
+              <img src="/images/Stephanie-1.png" alt="" class="max-h-80" />
+              <h2 class="mt-4 font-display text-2xl md:text-wxl">Stephanie</h2>
+              <p class="mt-4">Development</p>
               <p class="mt-4 text-black/80">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum in enim, lorem
                 pellent
               </p>
+              <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
+              Check my bio
+            </a>
             </div>
             <div class="swiper-slide">
-              <img src="/images/team-1.png" alt="" class="w-full" />
-              <h2 class="mt-4 font-display text-2xl md:text-3xl">John Doe</h2>
-              <p class="mt-4">Position</p>
+              <img src="/images/Natasha-1.png" alt="" class="max-h-80" />
+              <h2 class="mt-4 font-display text-2xl md:text-3xl">Natasha</h2>
+              <p class="mt-4">CEO</p>
               <p class="mt-4 text-black/80">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum in enim, lorem
                 pellent
               </p>
+              <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
+              Check my bio
+            </a>
             </div>
           </div>
         </div>
@@ -567,11 +546,5 @@ export default {
     mobileNav()
   },
 }
-
-window.onload = function() {
-  document.getElementById('popup-close').onclick = function() {
-    document.getElementById('popup-wrapper').style.display = 'none'
-  };
-};
 
 </script>

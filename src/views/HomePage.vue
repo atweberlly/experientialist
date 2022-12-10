@@ -43,6 +43,45 @@
       </div>
     </header>
     <div
+      id="popup-wrapper"
+      class="z-50 h-fit w-fit top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 fixed top"
+    >
+      <div id="popup" class="h-full w-full bg-secondary-500 px-20 py-8">
+      <a class="text-white absolute top-3 right-5" id="popup-close">
+           <img
+           class="w-6"
+            src="/images/akar-icons_cross.png"
+            alt="close"
+          />
+        </a>
+        <center>
+          <img
+            class="mx-auto block w-48 text-center"
+            src="/images/experientialist-logotype-alt.png"
+            alt="Experientialist Logo"
+          />
+          <img
+            class="mx-auto block w-96 my-8 text-center"
+            src="/images/christmas-promo.png"
+            alt="Cristmas Promo banner"
+          />
+          <div>
+           <h5 class="text-xl text-white font-poppins">Get a <span class="text-warning-300 font-bold">FREE</span> excursion on your next great adventure when you book before December 31st for travel in 2023!</h5>
+            <p class="mt-5 text-xs px-10 text-white">
+              * Excursion is limited to availability, and from select options provided by your
+              agent, 2 PAX per $8000CAD spent
+            </p>
+            <p class="mt-5 text-xs text-white">*Only valid for bookings over $8,000 CAD</p>
+            <button
+              class="mx-auto mt-10 block h-fit w-fit bg-primary-300 px-3 py-2 text-center text-white"
+            >
+              Book Now
+            </button>
+          </div>
+        </center>
+      </div>
+    </div>
+    <div
       class="container fixed inset-y-0 z-50 h-full w-full bg-secondary-500 py-6 lg:hidden"
       id="mobile-navigation"
     >
@@ -896,4 +935,10 @@ export default {
     mobileNav()
   },
 }
+
+window.onload = function() {
+  document.getElementById('popup-close').onclick = function() {
+    document.getElementById('popup-wrapper').style.display = 'none'
+  };
+};
 </script>
