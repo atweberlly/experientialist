@@ -81,6 +81,9 @@ module.exports = {
       minWidth: {
         xs: '20rem',
       },
+      spacing: {
+        '100': '28rem',
+      }
     },
   },
   corePlugins: {
