@@ -69,6 +69,7 @@ module.exports = {
         seashore: "url('/images/gaddafi-rusli-2ueUnL4CkV8-unsplash.jpg')",
         seaside: "url('/images/shifaaz-shamoon-qtbV_8P_Ksk-unsplash.jpeg')",
         lake: "url('images/pietro-de-grandi-T7K4aEPoGGk-unsplash.jpeg')",
+        sunset: "url('images/thefounder-background.png')"
       },
       backgroundPosition: {
         'top-16': 'center top -16rem',
