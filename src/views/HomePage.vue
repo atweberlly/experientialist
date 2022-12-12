@@ -14,7 +14,25 @@
 
           <div class="hidden md:block">
             <nav class="flex items-center gap-4 text-sm uppercase lg:gap-8">
-              <a href="#">About</a>
+              <a id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" href="#">About</a>
+              <div
+                id="dropdownNavbar"
+                class="!z-10 hidden w-fit divide-y divide-gray-100 bg-white shadow-sm"
+              >
+                <ul
+                  class="border border-t-primary-300 py-1 text-sm text-secondary-300"
+                  aria-labelledby="dropdownLargeButton"
+                >
+                  <li>
+                    <a href="/about-main" class="block px-4 py-2 hover:font-bold"
+                      >The Experientialist</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/about" class="block px-4 py-2 hover:font-bold">The Founder</a>
+                  </li>
+                </ul>
+              </div>
               <a href="#">Services</a>
               <a href="#">News</a>
               <a href="#">Villas</a>
@@ -44,9 +62,9 @@
     </header>
     <div
       id="popup-wrapper"
-      class="top fixed top-2/4 left-2/4 z-50 h-fit w-5/6 md:w-fit -translate-x-2/4 -translate-y-2/4"
+      class="top fixed top-2/4 left-2/4 z-50 h-fit w-5/6 -translate-x-2/4 -translate-y-2/4 md:w-fit"
     >
-      <div id="popup" class="h-full w-full bg-secondary-500 px-6 md:px-20 py-8">
+      <div id="popup" class="h-full w-full bg-secondary-500 px-6 py-8 md:px-20">
         <a class="absolute top-3 right-5 text-white" id="popup-close">
           <img class="w-6" src="/images/akar-icons_cross.png" alt="close" />
         </a>
@@ -104,9 +122,12 @@
       >
         <img src="/images/experientialist-logotype-alt.png" alt="" class="h-auto w-40" />
         <div class="grid-rows-auto mt-20 grid">
-          <a href="" class="block w-full border-t border-primary-100/20 py-5 text-white">Home</a>
-          <a href="" class="block w-full border-t border-primary-100/20 py-5 text-white">Home</a>
-          <a href="" class="block w-full border-y border-primary-100/20 py-5 text-white">Home</a>
+          <a href="" class="block w-full border-t border-primary-100/20 py-5 text-white">About</a>
+          <a href="" class="block w-full border-t border-primary-100/20 py-5 text-white"
+            >Services</a
+          >
+          <a href="" class="block w-full border-y border-primary-100/20 py-5 text-white">News</a>
+          <a href="" class="block w-full border-y border-primary-100/20 py-5 text-white">Villas</a>
           <a
             class="mt-10 block border border-primary-300/40 px-4 py-3 text-center text-primary-300 transition-colors hover:bg-primary-300 hover:text-white"
             href="#"
@@ -598,9 +619,11 @@
       </section>
 
       <section>
-        <h1 class="my-16 md:my-28 text-center font-display text-5xl text-secondary-300">Our Partners</h1>
+        <h1 class="my-16 text-center font-display text-5xl text-secondary-300 md:my-28">
+          Our Partners
+        </h1>
         <div
-          class="mb-16 md:mb-40 grid grid-cols-3 gap-x-5 gap-y-16 px-6 md:grid-cols-4 md:gap-x-16 md:px-20 lg:gap-x-32 lg:px-40"
+          class="mb-16 grid grid-cols-3 gap-x-5 gap-y-16 px-6 md:mb-40 md:grid-cols-4 md:gap-x-16 md:px-20 lg:gap-x-32 lg:px-40"
         >
           <div>
             <img class="mx-auto block max-h-52 w-full" src="/images/partners-logo-1.png" />

@@ -3,9 +3,10 @@ const plugin = require('tailwindcss/plugin')
 const aspectRatio = require('@tailwindcss/aspect-ratio')
 const lineClamp = require('@tailwindcss/line-clamp')
 
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./index.html', './src/**/*.vue'],
+  content: ['./index.html', './src/**/*.vue', './node_modules/flowbite/**/*.js'],
   theme: {
     container: {
       center: true,
@@ -106,5 +107,7 @@ module.exports = {
     }),
     aspectRatio,
     lineClamp,
+    require('flowbite/plugin')
   ],
+  
 }

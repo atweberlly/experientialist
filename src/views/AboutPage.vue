@@ -14,7 +14,25 @@
 
           <div class="hidden md:block">
             <nav class="flex items-center gap-4 text-sm uppercase lg:gap-8">
-              <a href="#">About</a>
+              <a id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="underline" href="#">About</a>
+              <div
+                id="dropdownNavbar"
+                class="z-10 hidden w-fit divide-y divide-gray-100 bg-white shadow-sm dark:divide-gray-600 dark:bg-gray-700"
+              >
+                <ul
+                  class="border border-t-primary-300 py-1 text-sm text-secondary-300"
+                  aria-labelledby="dropdownLargeButton"
+                >
+                  <li>
+                    <a href="/about-main" class="block px-4 py-2 hover:font-bold"
+                      >The Experientialist</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/about" class="block px-4 py-2 hover:font-bold">The Founder</a>
+                  </li>
+                </ul>
+              </div>
               <a href="#">Services</a>
               <a href="#">News</a>
               <a href="#">Villas</a>
@@ -44,11 +62,13 @@
     </header>
     <main>
       <section class="min-h-screen bg-sunset bg-cover bg-center bg-no-repeat">
-      <h1 class="font-display text-5xl absolute text-center top-1/2 left-1/2 -translate-x-2/4 -translate-y-2/4  uppercase tracking-tight text-white md:text-6xl">
-            The Founder
-          </h1>
+        <h1
+          class="absolute top-1/2 left-1/2 -translate-x-2/4 -translate-y-2/4 text-center font-display text-5xl uppercase tracking-tight text-white md:text-6xl"
+        >
+          The Founder
+        </h1>
       </section>
-      
+
       <section class="bg-white py-8 sm:py-12 md:py-16 lg:py-20">
         <div class="container">
           <div
@@ -204,7 +224,7 @@
           </div>
         </div>
       </section>
-      <section class="bg-white py-8 mb-32 sm:py-12 md:py-16 lg:py-20">
+      <section class="mb-32 bg-white py-8 sm:py-12 md:py-16 lg:py-20">
         <div class="container">
           <div
             class="grid grid-cols-1 gap-12 sm:mx-auto sm:max-w-sm md:max-w-none md:grid-cols-2 lg:items-center lg:gap-16 xl:max-w-5xl xl:gap-y-24"
@@ -238,7 +258,7 @@
           </div>
         </div>
       </section>
-       <section class="relative block overflow-hidden">
+      <section class="relative block overflow-hidden">
         <div class="absolute top-0 left-0 h-full w-full pb-[50%]">
           <img
             src="/images/david-marcu-78A265wPiO4-unsplash.png"
@@ -470,5 +490,4 @@ export default {
     mobileNav()
   },
 }
-
 </script>

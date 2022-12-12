@@ -14,7 +14,25 @@
 
           <div class="hidden md:block">
             <nav class="flex items-center gap-4 text-sm uppercase lg:gap-8">
-              <a href="#">About</a>
+              <a id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="underline" href="#">About</a>
+              <div
+                id="dropdownNavbar"
+                class="z-10 hidden w-fit divide-y divide-gray-100 bg-white shadow-sm dark:divide-gray-600 dark:bg-gray-700"
+              >
+                <ul
+                  class="border border-t-primary-300 py-1 text-sm text-secondary-300"
+                  aria-labelledby="dropdownLargeButton"
+                >
+                  <li>
+                    <a href="/about-main" class="block px-4 py-2 hover:font-bold"
+                      >The Experientialist</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/about" class="block px-4 py-2 hover:font-bold">The Founder</a>
+                  </li>
+                </ul>
+              </div>
               <a href="#">Services</a>
               <a href="#">News</a>
               <a href="#">Villas</a>
@@ -43,11 +61,13 @@
       </div>
     </header>
     <main>
-      <section class="flex h-[50vh] bg-elephants bg-cover bg-center items-center bg-secondary-500 py-24 lg:h-[70vh]">
+      <section
+        class="flex h-[50vh] items-center bg-secondary-500 bg-elephants bg-cover bg-center py-24 lg:h-[70vh]"
+      >
         <div class="container text-center">
           <h1 class="font-display text-2xl tracking-tight text-white md:text-5xl">
-            We believe in the experience, <br/>
-the influence, and the adventure of travel. 
+            We believe in the experience, <br />
+            the influence, and the adventure of travel.
           </h1>
         </div>
       </section>
@@ -59,7 +79,7 @@ the influence, and the adventure of travel.
             class="relative mx-auto -translate-y-1/2 md:w-2/3 lg:w-1/2"
           />
           <div class="mx-auto -mt-20 max-w-lg text-center text-secondary-300 md:-mt-24 lg:-mt-32">
-            <h2 class="text-lg text-primary-300 uppercase tracking-wide">
+            <h2 class="text-lg uppercase tracking-wide text-primary-300">
               WELCOME TO EXPERIENTIALIST
             </h2>
             <p class="mt-4 lg:mt-8">
@@ -86,12 +106,16 @@ the influence, and the adventure of travel.
             </div>
             <div class="-mt-24">
               <div class="text-primary-300">
-                <h1 class="font-display text-4xl tracking-tight md:text-5xl">We go the extra mile</h1>
+                <h1 class="font-display text-4xl tracking-tight md:text-5xl">
+                  We go the extra mile
+                </h1>
               </div>
 
               <p class="mt-5 text-secondary-300 md:mt-8">
-                Our agents are some of the most passionate and educated individuals. We go the extra mile to make sure your trip has that taste of magic. <br/><br/>
-                Your agent knows just who to book with to ensure that added perks, refined service, and exclusivity are just part of the already upscale experience.
+                Our agents are some of the most passionate and educated individuals. We go the extra
+                mile to make sure your trip has that taste of magic. <br /><br />
+                Your agent knows just who to book with to ensure that added perks, refined service,
+                and exclusivity are just part of the already upscale experience.
               </p>
             </div>
           </div>
@@ -136,48 +160,48 @@ the influence, and the adventure of travel.
               <h2 class="mt-4 font-display text-2xl md:text-3xl">Natasha</h2>
               <p class="mt-4">CEO</p>
               <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
-              Check my bio
-            </a>
+                Check my bio
+              </a>
             </div>
             <div class="swiper-slide">
               <img src="/images/Dale-1.png" alt="" class="max-h-80" />
               <h2 class="mt-4 font-display text-2xl md:text-3xl">Dale Botbijl</h2>
               <p class="mt-4">Sales Manager</p>
               <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
-              Check my bio
-            </a>
+                Check my bio
+              </a>
             </div>
             <div class="swiper-slide">
               <img src="/images/Yvette-1.png" alt="" class="max-h-80" />
               <h2 class="mt-4 font-display text-2xl md:text-3xl">Yvette</h2>
               <p class="mt-4">Development</p>
               <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
-              Check my bio
-            </a>
+                Check my bio
+              </a>
             </div>
             <div class="swiper-slide">
               <img src="/images/Jonah-1.png" alt="" class="max-h-80" />
               <h2 class="mt-4 font-display text-2xl md:text-3xl">Jonah</h2>
               <p class="mt-4">Development</p>
               <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
-              Check my bio
-            </a>
+                Check my bio
+              </a>
             </div>
             <div class="swiper-slide">
               <img src="/images/Stephanie-1.png" alt="" class="max-h-80" />
-              <h2 class="mt-4 font-display text-2xl md:text-wxl">Stephanie</h2>
+              <h2 class="md:text-wxl mt-4 font-display text-2xl">Stephanie</h2>
               <p class="mt-4">Development</p>
               <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
-              Check my bio
-            </a>
+                Check my bio
+              </a>
             </div>
             <div class="swiper-slide">
               <img src="/images/Natasha-1.png" alt="" class="max-h-80" />
               <h2 class="mt-4 font-display text-2xl md:text-3xl">Natasha</h2>
               <p class="mt-4">CEO</p>
               <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
-              Check my bio
-            </a>
+                Check my bio
+              </a>
             </div>
           </div>
         </div>

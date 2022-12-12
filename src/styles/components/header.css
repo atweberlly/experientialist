@@ -17,7 +17,6 @@
   backdrop-filter: blur(theme('backdropBlur.0'));
   box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
 }
-
 @supports (backdrop-filter: blur(0)) {
   .header {
     background-color: rgb(255 255 255 / 0.1);
