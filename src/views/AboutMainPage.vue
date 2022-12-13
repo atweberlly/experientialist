@@ -14,7 +14,7 @@
 
           <div class="hidden md:block">
             <nav class="flex items-center gap-4 text-sm uppercase lg:gap-8">
-              <a id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="underline" href="#">About</a>
+              <a id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="underline">About</a>
               <div
                 id="dropdownNavbar"
                 class="z-10 hidden w-fit divide-y divide-gray-100 bg-white shadow-sm dark:divide-gray-600 dark:bg-gray-700"
