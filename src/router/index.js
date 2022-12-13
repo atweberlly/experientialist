@@ -6,6 +6,7 @@ import EventsPage from '../views/EventsPage.vue'
 import ContactPage from '../views/ContactPage.vue'
 import AboutPage from '../views/AboutPage.vue'
 import AboutMain from '../views/AboutMainPage.vue'
+
 const routes = [
   {
     path: '/',

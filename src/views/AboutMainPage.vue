@@ -137,48 +137,48 @@
               <h2 class="mt-4 font-display text-2xl md:text-3xl">Natasha</h2>
               <p class="mt-4">CEO</p>
               <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
-              Check my bio
-            </a>
+                Check my bio
+              </a>
             </div>
             <div class="swiper-slide">
               <img src="/images/Dale-1.png" alt="" class="max-h-80" />
               <h2 class="mt-4 font-display text-2xl md:text-3xl">Dale Botbijl</h2>
               <p class="mt-4">Sales Manager</p>
               <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
-              Check my bio
-            </a>
+                Check my bio
+              </a>
             </div>
             <div class="swiper-slide">
               <img src="/images/Yvette-1.png" alt="" class="max-h-80" />
               <h2 class="mt-4 font-display text-2xl md:text-3xl">Yvette</h2>
               <p class="mt-4">Development</p>
               <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
-              Check my bio
-            </a>
+                Check my bio
+              </a>
             </div>
             <div class="swiper-slide">
               <img src="/images/Jonah-1.png" alt="" class="max-h-80" />
               <h2 class="mt-4 font-display text-2xl md:text-3xl">Jonah</h2>
               <p class="mt-4">Development</p>
               <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
-              Check my bio
-            </a>
+                Check my bio
+              </a>
             </div>
             <div class="swiper-slide">
               <img src="/images/Stephanie-1.png" alt="" class="max-h-80" />
-              <h2 class="mt-4 font-display text-2xl md:text-wxl">Stephanie</h2>
+              <h2 class="md:text-wxl mt-4 font-display text-2xl">Stephanie</h2>
               <p class="mt-4">Development</p>
               <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
-              Check my bio
-            </a>
+                Check my bio
+              </a>
             </div>
             <div class="swiper-slide">
               <img src="/images/Natasha-1.png" alt="" class="max-h-80" />
               <h2 class="mt-4 font-display text-2xl md:text-3xl">Natasha</h2>
               <p class="mt-4">CEO</p>
               <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
-              Check my bio
-            </a>
+                Check my bio
+              </a>
             </div>
           </div>
         </div>

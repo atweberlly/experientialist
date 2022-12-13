@@ -76,14 +76,14 @@ module.exports = {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
         display: ['Old Standard TT', 'system-ui'],
-        'poppins': ['Poppins'],
+        poppins: ['Poppins'],
       },
       minWidth: {
         xs: '20rem',
       },
       spacing: {
-        '100': '28rem',
-      }
+        100: '28rem',
+      },
     },
   },
   corePlugins: {

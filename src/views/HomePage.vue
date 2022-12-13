@@ -44,13 +44,20 @@
     </header>
     <div
       id="popup-wrapper"
-      class="top fixed top-2/4 left-2/4 z-50 h-fit w-5/6 md:w-fit -translate-x-2/4 -translate-y-2/4"
+      class="top fixed top-2/4 left-2/4 z-50 h-fit w-5/6 md:w-fit -translate-x-2/4 -translate-y-2/4 shadow-lg hidden"
     >
-      <div id="popup" class="h-full w-full bg-secondary-500 px-6 md:px-20 py-8">
-        <a class="absolute top-3 right-5 text-white" id="popup-close">
-          <img class="w-6" src="/images/akar-icons_cross.png" alt="close" />
+      <div id="popup" class="mx-auto h-full w-full bg-secondary-500 px-6 md:px-20 py-8 text-center">
+        <a class="absolute top-3 right-5 text-white cursor-pointer" id="popup-close">
+          <svg class="h-8 w-8" viewBox="0 0 24 24">
+            <path
+            stroke="#fff"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            d="m6 6 12 12M6 18 18 6 6 18Z"
+            />
+          </svg>
         </a>
-        <center>
           <img
             class="mx-auto block w-48 text-center"
             src="/images/experientialist-logotype-alt.png"
@@ -77,7 +84,6 @@
               Book Now
             </button>
           </div>
-        </center>
       </div>
     </div>
     <div
@@ -977,17 +983,29 @@ const slider = () => {
   partnerSwiper.init()
 }
 
+const christmasModal = () => {
+  const modalClose =  document.getElementById('popup-close')
+  const modalWrapper = document.getElementById('popup-wrapper')
+  
+  if (modalClose) {
+    modalClose.addEventListener('click', () => {
+      if (modalClose) modalWrapper.classList.add('hidden')
+    })
+  }
+
+  const displayModal = () => {
+    modalWrapper.classList.remove('hidden')
+  }
+
+  setTimeout(displayModal, 3000);
+}
+
 export default {
   mounted: () => {
     dynamicHeader()
     slider()
     mobileNav()
+    christmasModal()
   },
-}
-
-window.onload = function () {
-  document.getElementById('popup-close').onclick = function () {
-    document.getElementById('popup-wrapper').style.display = 'none'
-  }
 }
 </script>
