@@ -3,9 +3,10 @@ const plugin = require('tailwindcss/plugin')
 const aspectRatio = require('@tailwindcss/aspect-ratio')
 const lineClamp = require('@tailwindcss/line-clamp')
 
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./index.html', './src/**/*.vue'],
+  content: ['./index.html', './src/**/*.vue', './node_modules/flowbite/**/*.js'],
   theme: {
     container: {
       center: true,
@@ -69,6 +70,9 @@ module.exports = {
         seashore: "url('/images/gaddafi-rusli-2ueUnL4CkV8-unsplash.jpg')",
         seaside: "url('/images/shifaaz-shamoon-qtbV_8P_Ksk-unsplash.jpeg')",
         lake: "url('images/pietro-de-grandi-T7K4aEPoGGk-unsplash.jpeg')",
+        sunset: "url('images/thefounder-background.png')",
+        elephants: "url('images/about-9.png')",
+        cresent: "url('images/Crescent.svg')"
       },
       backgroundPosition: {
         'top-16': 'center top -16rem',
@@ -104,5 +108,7 @@ module.exports = {
     }),
     aspectRatio,
     lineClamp,
+    require('flowbite/plugin')
   ],
+  
 }

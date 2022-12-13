@@ -14,7 +14,25 @@
 
           <div class="hidden md:block">
             <nav class="flex items-center gap-4 text-sm uppercase lg:gap-8">
-              <a href="#">About</a>
+              <a id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="underline">About</a>
+              <div
+                id="dropdownNavbar"
+                class="z-10 hidden w-fit divide-y divide-gray-100 bg-white shadow-sm dark:divide-gray-600 dark:bg-gray-700"
+              >
+                <ul
+                  class="border border-t-primary-300 py-1 text-sm text-secondary-300"
+                  aria-labelledby="dropdownLargeButton"
+                >
+                  <li>
+                    <a href="/about-main" class="block px-4 py-2 hover:font-bold"
+                      >The Experientialist</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/about" class="block px-4 py-2 hover:font-bold">The Founder</a>
+                  </li>
+                </ul>
+              </div>
               <a href="#">Services</a>
               <a href="#">News</a>
               <a href="#">Villas</a>
@@ -43,62 +61,14 @@
       </div>
     </header>
     <main>
-      <section class="min-h-screen bg-seaside bg-cover bg-center bg-no-repeat"></section>
-      <section class="bg-secondary-500 py-8 sm:py-12 md:py-16 lg:py-20">
-        <div class="container">
-          <h5 class="text-lg uppercase text-white">About us</h5>
-          <div class="mt-2 flex-none items-center gap-20 lg:mt-3 lg:flex lg:max-w-7xl">
-            <h1 class="font-display text-4xl tracking-tight text-primary-300 md:text-5xl">
-              We ask the questions some fear to ask;
-            </h1>
-            <p class="mt-8 text-white lg:max-w-2xl">
-              We believe in the experience, the influence, and the adventure of travel. We sacrifice
-              nothing, and we believe anything is possible. We keep our partners accountable for
-              their location's sustainability and ensure your travel dollars are responsible for
-              supporting the community you travel to.
-            </p>
-          </div>
-          <div class="md::gap-8 mt-8 grid grid-cols-1 gap-4 lg:mt-16 lg:grid-cols-3">
-            <img class="w-full rounded-lg" src="/images/about-1.png" alt="Woman under the sea" />
-            <div>
-              <img
-                class="relative w-full rounded-t-lg"
-                src="/images/about-2.png"
-                alt="Aerial View Of A Beautiful Island Resort"
-              />
-              <div class="-translate-y-10 rounded-b-lg bg-white p-8">
-                <div
-                  class="flex h-20 w-20 -translate-y-2/3 items-center justify-center rounded-full bg-white shadow-lg"
-                >
-                  <svg
-                    class="m-auto h-8 w-8 text-secondary-300"
-                    viewBox="0 0 23 20"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M18.0064 19.3893C16.1576 19.3893 14.7592 18.6036 13.8111 17.0323C13.0052 15.7064 12.6023 14.0859 12.6023 12.1708C12.6023 9.71551 13.1949 7.50576 14.38 5.54153C15.6125 3.57731 17.4613 2.00593 19.9263 0.827393L20.5662 2.15324C19.0967 2.79162 17.8168 3.79828 16.7265 5.17324C15.6836 6.5482 15.1621 7.94771 15.1621 9.37178C15.1621 9.96104 15.2332 10.4766 15.3755 10.9186C16.1339 10.2802 17.0109 9.96104 18.0064 9.96104C19.2863 9.96104 20.3529 10.403 21.2062 11.2869C22.1069 12.1217 22.5572 13.2511 22.5572 14.6752C22.5572 16.001 22.1069 17.1305 21.2062 18.0635C20.3529 18.9474 19.2863 19.3893 18.0064 19.3893ZM5.91827 19.3893C4.0695 19.3893 2.67106 18.6036 1.72297 17.0323C0.917098 15.7064 0.51416 14.0859 0.51416 12.1708C0.51416 9.71551 1.10672 7.50576 2.29183 5.54153C3.52434 3.57731 5.37312 2.00593 7.83815 0.827393L8.47811 2.15324C7.00857 2.79162 5.72865 3.79828 4.63835 5.17324C3.59545 6.5482 3.074 7.94771 3.074 9.37178C3.074 9.96104 3.14511 10.4766 3.28732 10.9186C4.04579 10.2802 4.92278 9.96104 5.91827 9.96104C7.19819 9.96104 8.26479 10.403 9.11807 11.2869C10.0188 12.1217 10.4691 13.2511 10.4691 14.6752C10.4691 16.001 10.0188 17.1305 9.11807 18.0635C8.26479 18.9474 7.19819 19.3893 5.91827 19.3893Z"
-                      fill="#0B4F4A"
-                    />
-                  </svg>
-                </div>
-                <div class="-mt-8">
-                  <h1 class="font-display text-2xl capitalize text-black">Our agents</h1>
-                  <p class="mt-4 text-secondary-300">
-                    Our agents have the passion and knowledge to make your trip or event one of the
-                    most unique experiences you could imagine. We believe in your adventure!
-                  </p>
-                </div>
-              </div>
-            </div>
-            <img
-              class="w-full rounded-lg"
-              src="/images/about-3.png"
-              alt="Man Wearing Red Jacket Doing Peace "
-            />
-          </div>
-        </div>
+      <section class="min-h-screen bg-sunset bg-cover bg-center bg-no-repeat">
+        <h1
+          class="absolute top-1/2 left-1/2 -translate-x-2/4 -translate-y-2/4 text-center font-display text-5xl uppercase tracking-tight text-white md:text-6xl"
+        >
+          The Founder
+        </h1>
       </section>
+
       <section class="bg-white py-8 sm:py-12 md:py-16 lg:py-20">
         <div class="container">
           <div
@@ -254,7 +224,7 @@
           </div>
         </div>
       </section>
-      <section class="bg-white py-8 sm:py-12 md:py-16 lg:py-20">
+      <section class="mb-32 bg-white py-8 sm:py-12 md:py-16 lg:py-20">
         <div class="container">
           <div
             class="grid grid-cols-1 gap-12 sm:mx-auto sm:max-w-sm md:max-w-none md:grid-cols-2 lg:items-center lg:gap-16 xl:max-w-5xl xl:gap-y-24"
@@ -288,85 +258,59 @@
           </div>
         </div>
       </section>
-      <section class="min-h-[50vh] bg-lake bg-cover bg-fixed bg-center bg-no-repeat"></section>
-      <section class="bg-white py-8 sm:py-12 md:py-16 lg:py-20">
-        <h1 class="text-center font-display text-4xl tracking-tight text-secondary-300 md:text-5xl">
-          Team Experientialist
-        </h1>
-        <div class="swiper team-swiper mt-8 !px-8 lg:mt-16">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <img src="/images/natasha-6.png" alt="" class="max-h-80" />
-              <h2 class="mt-4 font-display text-2xl md:text-3xl">Natasha</h2>
-              <p class="mt-4">CEO</p>
-              <p class="mt-4 text-black/80">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum in enim, lorem
-                pellent
-              </p>
-              <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
-                Check my bio
-              </a>
+      <section class="relative block overflow-hidden">
+        <div class="absolute top-0 left-0 h-full w-full pb-[50%]">
+          <img
+            src="/images/david-marcu-78A265wPiO4-unsplash.png"
+            alt="cloud"
+            class="bg-landscape absolute bottom-0 left-0 h-full w-full bg-cover bg-center bg-no-repeat object-cover"
+          />
+          <img
+            src="/images/Cloud.png"
+            alt="cloud"
+            class="cloud-parallax absolute left-0 h-full w-full object-cover"
+            data-speed=".4"
+          />
+        </div>
+        <div class="relative mx-auto max-w-3xl place-items-center pt-[40rem] pb-20 lg:pt-[50rem]">
+          <div class="container">
+            <h5 class="text-center font-bold uppercase text-secondary-500">
+              make every experience count!
+            </h5>
+            <h1 class="mt-4 text-center font-display text-3xl text-secondary-500">
+              Receive helpful tips and inspiration in your inbox
+            </h1>
+            <div class="mt-8 grid grid-cols-1 gap-4 lg:grid-cols-2">
+              <div>
+                <label class="form-label" for="name">First Name</label>
+                <input class="form-input" id="name" type="text" placeholder="" />
+              </div>
+              <div>
+                <label class="form-label" for="name">Last Name</label>
+                <input class="form-input" id="name" type="text" placeholder="" />
+              </div>
+              <div>
+                <label class="form-label" for="name">Email</label>
+                <input class="form-input" id="name" type="text" placeholder="" />
+              </div>
+              <div class="block">
+                <div class="mt-2">
+                  <label class="inline-flex items-center gap-4">
+                    <div class="input-round">
+                      <input type="checkbox" checked id="checkbox" />
+                      <label for="checkbox"></label>
+                    </div>
+                    <span class="ml-2">I’m happy to receive emails from Experientialist</span>
+                  </label>
+                </div>
+              </div>
             </div>
-            <div class="swiper-slide">
-              <img src="/images/Dale-1.png" alt="" class="max-h-80" />
-              <h2 class="mt-4 font-display text-2xl md:text-3xl">Dale Botbijl</h2>
-              <p class="mt-4">Sales Manager</p>
-              <p class="mt-4 text-black/80">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum in enim, lorem
-                pellent
-              </p>
-              <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
-                Check my bio
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <img src="/images/Yvette-1.png" alt="" class="max-h-80" />
-              <h2 class="mt-4 font-display text-2xl md:text-3xl">Yvette</h2>
-              <p class="mt-4">Development</p>
-              <p class="mt-4 text-black/80">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum in enim, lorem
-                pellent
-              </p>
-              <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
-                Check my bio
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <img src="/images/Jonah-1.png" alt="" class="max-h-80" />
-              <h2 class="mt-4 font-display text-2xl md:text-3xl">Jonah</h2>
-              <p class="mt-4">Development</p>
-              <p class="mt-4 text-black/80">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum in enim, lorem
-                pellent
-              </p>
-              <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
-                Check my bio
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <img src="/images/Stephanie-1.png" alt="" class="max-h-80" />
-              <h2 class="md:text-wxl mt-4 font-display text-2xl">Stephanie</h2>
-              <p class="mt-4">Development</p>
-              <p class="mt-4 text-black/80">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum in enim, lorem
-                pellent
-              </p>
-              <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
-                Check my bio
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <img src="/images/Natasha-1.png" alt="" class="max-h-80" />
-              <h2 class="mt-4 font-display text-2xl md:text-3xl">Natasha</h2>
-              <p class="mt-4">CEO</p>
-              <p class="mt-4 text-black/80">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum in enim, lorem
-                pellent
-              </p>
-              <a class="mt-2 block h-fit w-fit bg-primary-300 px-3 py-2 text-white" href="#">
-                Check my bio
-              </a>
-            </div>
+            <button
+              class="m-auto mt-5 block w-full bg-primary-300 px-4 py-3 text-sm uppercase tracking-wide text-white lg:w-auto"
+              type="submit"
+            >
+              Subscribe
+            </button>
           </div>
         </div>
       </section>

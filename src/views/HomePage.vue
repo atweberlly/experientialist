@@ -14,7 +14,25 @@
 
           <div class="hidden md:block">
             <nav class="flex items-center gap-4 text-sm uppercase lg:gap-8">
-              <a href="#">About</a>
+              <a id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar">About</a>
+              <div
+                id="dropdownNavbar"
+                class="!z-10 hidden w-fit divide-y divide-gray-100 bg-white shadow-sm"
+              >
+                <ul
+                  class="border border-t-primary-300 py-1 text-sm text-secondary-300"
+                  aria-labelledby="dropdownLargeButton"
+                >
+                  <li>
+                    <a href="/about-main" class="block px-4 py-2 hover:font-bold"
+                      >The Experientialist</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/about" class="block px-4 py-2 hover:font-bold">The Founder</a>
+                  </li>
+                </ul>
+              </div>
               <a href="#">Services</a>
               <a href="#">News</a>
               <a href="#">Villas</a>
@@ -110,9 +128,12 @@
       >
         <img src="/images/experientialist-logotype-alt.png" alt="" class="h-auto w-40" />
         <div class="grid-rows-auto mt-20 grid">
-          <a href="" class="block w-full border-t border-primary-100/20 py-5 text-white">Home</a>
-          <a href="" class="block w-full border-t border-primary-100/20 py-5 text-white">Home</a>
-          <a href="" class="block w-full border-y border-primary-100/20 py-5 text-white">Home</a>
+          <a href="" class="block w-full border-t border-primary-100/20 py-5 text-white">About</a>
+          <a href="" class="block w-full border-t border-primary-100/20 py-5 text-white"
+            >Services</a
+          >
+          <a href="" class="block w-full border-y border-primary-100/20 py-5 text-white">News</a>
+          <a href="" class="block w-full border-y border-primary-100/20 py-5 text-white">Villas</a>
           <a
             class="mt-10 block border border-primary-300/40 px-4 py-3 text-center text-primary-300 transition-colors hover:bg-primary-300 hover:text-white"
             href="#"
@@ -126,21 +147,14 @@
     <main>
       <section class="min-h-screen bg-resort bg-cover bg-center bg-no-repeat"></section>
 
-      <section class="bg-secondary-50 py-8 sm:py-12 md:py-16 lg:py-20">
+      <section class="bg-secondary-50 bg-cresent bg-auto bg-no-repeat bg-right-top bg-origin-content py-8 sm:py-12 md:py-16 lg:py-20">
         <div class="container">
           <div class="sm:max-w-md">
             <h2 class="font-display text-4xl tracking-tight text-primary-300 md:text-5xl">
-              Elaborate your
-              <br />
-              travel experience
+              Curating Meaningful Experiences.
             </h2>
             <p class="mt-4 text-secondary-400 md:mt-8">
-              We bring a world of possibilities closer to you by building customised bespoke
-              itineraries to fit your corporate or family travel desires.
-            </p>
-            <p class="mt-4 text-secondary-400">
-              Luxury experiences and unforgettable adventures await you without even lifting a
-              finger.
+              We believe in experience, influence, and travel adventure. We curate meaningful trips sacrificing nothing—overlooking obstacles and meeting results that seemed impossible; we believe anything is possible.
             </p>
             <div class="mt-8">
               <a
@@ -170,47 +184,17 @@
             As Seen On
           </h1>
           <div class="swiper partner-swiper mt-8 lg:mt-16">
-            <div class="swiper-wrapper ml-16">
+            <div class="swiper-wrapper justify-center ml-16">
               <div class="swiper-slide">
                 <img
                   class="h-6 opacity-50 grayscale hover:opacity-100 hover:grayscale-0 lg:h-12"
-                  src="/images/partner-logo.static.svg"
+                  src="/images/partner-logo1.static.svg"
                 />
               </div>
               <div class="swiper-slide">
                 <img
                   class="h-6 opacity-50 grayscale hover:opacity-100 hover:grayscale-0 lg:h-12"
-                  src="/images/partner-logo.static.svg"
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  class="h-6 opacity-50 grayscale hover:opacity-100 hover:grayscale-0 lg:h-12"
-                  src="/images/partner-logo.static.svg"
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  class="h-6 opacity-50 grayscale hover:opacity-100 hover:grayscale-0 lg:h-12"
-                  src="/images/partner-logo.static.svg"
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  class="h-6 opacity-50 grayscale hover:opacity-100 hover:grayscale-0 lg:h-12"
-                  src="/images/partner-logo.static.svg"
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  class="h-6 opacity-50 grayscale hover:opacity-100 hover:grayscale-0 lg:h-12"
-                  src="/images/partner-logo.static.svg"
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  class="h-6 opacity-50 grayscale hover:opacity-100 hover:grayscale-0 lg:h-12"
-                  src="/images/partner-logo.static.svg"
+                  src="/images/partner-logo2.static.svg"
                 />
               </div>
               <div class="swiper-slide">
@@ -300,21 +284,10 @@
               <h2
                 class="font-display text-4xl tracking-tight text-primary-300 lg:text-5xl xl:text-6xl"
               >
-                To experience is to know
+                Asking the Questions Some Fear to Ask.
               </h2>
               <p class="mt-4 text-lg text-secondary-300 lg:mt-6 xl:mt-8">
-                We have been cultivating years of experiences and venturing into the most authentic
-                places in the world in order to bring you the safest, most knowledgeable experiences
-                your company and family can explore.
-              </p>
-              <p class="mt-4 text-lg text-secondary-300 lg:mt-6 xl:mt-8">
-                When you work with us, you can rest easy knowing that every detail is taken care of,
-                all the adventure without sacrificing luxury is thought through, you can truly
-                elevate your travel.
-              </p>
-              <p class="mt-4 text-xl italic text-primary-500 lg:mt-6 xl:mt-8">
-                We know exactly how to build the most lucrative itinerary that will engage even the
-                most uncompromising spirit.
+                We keep our partners accountable for their location's sustainability and ensure your travel dollars are responsible for supporting the community you travel to.
               </p>
             </div>
 
@@ -346,22 +319,10 @@
               <h2
                 class="font-display text-4xl tracking-tight text-primary-300 lg:text-5xl xl:text-6xl"
               >
-                We believe in generational influence;
+                Perfecting Travel Indulgence.
               </h2>
               <p class="mt-4 text-lg text-secondary-300 lg:mt-6 xl:mt-8">
-                We believe in insuring that your travel experience will give back to the local
-                community with each visit. Our travel advisors make it a priority to visit each
-                destination, resort, and activity that we recommend to our travellers.
-              </p>
-              <p class="mt-4 text-lg text-secondary-300 lg:mt-6 xl:mt-8">
-                We ask the questions some fear to ask. We keep our partners accountable for the
-                sustainability of its location. Your travel dollars are accountable and responsible
-                for supporting the community you travel to.
-              </p>
-              <p class="mt-4 text-lg text-secondary-300 lg:mt-6 xl:mt-8">
-                You can rest assured knowing that your money is well spent and that your influence
-                will be felt in a positive way throughout the culture and generations to come when
-                you travel the Experientialist way.
+                We bring a world of possibilities closer to you by building bespoke itineraries that encompass unique and organized experiences.
               </p>
             </div>
           </div>
@@ -604,9 +565,11 @@
       </section>
 
       <section>
-        <h1 class="my-16 md:my-28 text-center font-display text-5xl text-secondary-300">Our Partners</h1>
+        <h1 class="my-16 text-center font-display text-5xl text-secondary-300 md:my-28">
+          Our Partners
+        </h1>
         <div
-          class="mb-16 md:mb-40 grid grid-cols-3 gap-x-5 gap-y-16 px-6 md:grid-cols-4 md:gap-x-16 md:px-20 lg:gap-x-32 lg:px-40"
+          class="mb-16 grid grid-cols-3 gap-x-5 gap-y-16 px-6 md:mb-40 md:grid-cols-4 md:gap-x-16 md:px-20 lg:gap-x-32 lg:px-40"
         >
           <div>
             <img class="mx-auto block max-h-52 w-full" src="/images/partners-logo-1.png" />
@@ -751,12 +714,10 @@
                   <h2
                     class="mt-8 font-display text-4xl tracking-tight text-primary-200 lg:text-5xl xl:-ml-16 xl:mt-16"
                   >
-                    Bring the luxury
+                    Elevate Your Planning Experience
                   </h2>
                   <p class="mt-4 text-lg text-secondary-300 lg:mt-8">
-                    Working with us for your company events, your personal luxury travel, or
-                    building that tantalizing incentive for your team, we have the experience and
-                    knowledge to make it one of the most unique experiences you could imagine.
+                    We spare no effort to ensure your vacation fits your travel personality. Extraordinary experiences and unforgettable adventures await you or your team without even lifting a finger.
                   </p>
                   <div class="mt-4 lg:mt-8">
                     <a

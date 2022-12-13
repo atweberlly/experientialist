@@ -14,7 +14,25 @@
 
           <div class="hidden md:block">
             <nav class="flex items-center gap-4 text-sm uppercase lg:gap-8">
-              <a href="#">About</a>
+              <a id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="underline">About</a>
+              <div
+                id="dropdownNavbar"
+                class="z-10 hidden w-fit divide-y divide-gray-100 bg-white shadow-sm dark:divide-gray-600 dark:bg-gray-700"
+              >
+                <ul
+                  class="border border-t-primary-300 py-1 text-sm text-secondary-300"
+                  aria-labelledby="dropdownLargeButton"
+                >
+                  <li>
+                    <a href="/about-main" class="block px-4 py-2 hover:font-bold"
+                      >The Experientialist</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/about" class="block px-4 py-2 hover:font-bold">The Founder</a>
+                  </li>
+                </ul>
+              </div>
               <a href="#">Services</a>
               <a href="#">News</a>
               <a href="#">Villas</a>
@@ -43,12 +61,13 @@
       </div>
     </header>
     <main>
-      <section class="flex h-[50vh] items-center bg-secondary-500 py-24 lg:h-[60vh]">
+      <section
+        class="flex h-[50vh] items-center bg-secondary-500 bg-elephants bg-cover bg-center py-24 lg:h-[70vh]"
+      >
         <div class="container text-center">
-          <h5 class="text-lg uppercase text-white">our story</h5>
-          <h1 class="font-display text-4xl tracking-tight text-primary-300 md:text-5xl">
-            We ask the questions <br />
-            some fear to ask;
+          <h1 class="font-display text-2xl tracking-tight text-white md:text-5xl">
+            We believe in the experience, <br />
+            the influence, and the adventure of travel.
           </h1>
         </div>
       </section>
@@ -60,8 +79,8 @@
             class="relative mx-auto -translate-y-1/2 md:w-2/3 lg:w-1/2"
           />
           <div class="mx-auto -mt-20 max-w-lg text-center text-secondary-300 md:-mt-24 lg:-mt-32">
-            <h2 class="text-lg uppercase tracking-wide">
-              We believe in the experience, the influence, and the adventure of travel.
+            <h2 class="text-lg uppercase tracking-wide text-primary-300">
+              WELCOME TO EXPERIENTIALIST
             </h2>
             <p class="mt-4 lg:mt-8">
               We sacrifice nothing, and we believe anything is possible. We keep our partners
@@ -87,12 +106,16 @@
             </div>
             <div class="-mt-24">
               <div class="text-primary-300">
-                <h1 class="font-display text-4xl tracking-tight md:text-5xl">Our Agents</h1>
+                <h1 class="font-display text-4xl tracking-tight md:text-5xl">
+                  We go the extra mile
+                </h1>
               </div>
 
               <p class="mt-5 text-secondary-300 md:mt-8">
-                Our agents have the passion and knowledge to make your trip or event one of the most
-                unique experiences you could imagine. We believe in your adventure!
+                Our agents are some of the most passionate and educated individuals. We go the extra
+                mile to make sure your trip has that taste of magic. <br /><br />
+                Your agent knows just who to book with to ensure that added perks, refined service,
+                and exclusivity are just part of the already upscale experience.
               </p>
             </div>
           </div>
