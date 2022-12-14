@@ -159,18 +159,166 @@
           </div>
         </div>
       </section>
-      <section class="min-h-screen grid items-center bg-[url('/images/service-1.png')] bg-cover bg-no-repeat">
-        <div class="w-fit inline-block align-middle border-8 border-primary-300 bg-white bg-opacity-80 mx-5 px-5 py-16 md:mx-32 md:px-32">
-          <h2 class="font-display text-3xl md:text-4xl uppercase tracking-wider text-blue-900">
+
+      <!-- Liesure Section -->
+
+      <section
+        class="grid min-h-screen items-center bg-[url('/images/service-1.png')] bg-cover bg-no-repeat"
+      >
+        <div
+          class="mx-5 inline-block max-w-screen-sm border-8 border-primary-300 bg-white bg-opacity-80 px-5 py-16 align-middle md:mx-32 md:px-32"
+        >
+          <h2 class="font-display text-3xl uppercase tracking-wider text-blue-900 md:text-4xl">
             Liesure Travel
           </h2>
-          <div class="mt-7 font-display text-2xl uppercase tracking-widest text-gray-800">
+          <div class="mt-7 font-display text-2xl uppercase tracking-[.2em] text-gray-800">
             <p class="mb-3">Cruises</p>
             <p class="mb-3">Generational</p>
             <p class="mb-3">Packages</p>
-            <p class="mb-7">Custom itineraries</p>
+            <p class="mb-9">Custom itineraries</p>
           </div>
-          <a class="uppercase border text-sm py-2 px-4 border-primary-300">Discover</a>
+          <a class="border border-primary-300 py-2 px-4 text-sm uppercase" href="#">Discover</a>
+        </div>
+      </section>
+
+      <!-- Corporate Travel Section -->
+
+      <section
+        class="bg grid h-[60vh] items-center bg-[url('/images/service-4.png')] bg-cover bg-no-repeat sm:h-[80vh] md:justify-items-end md:bg-contain lg:px-32"
+      >
+        <div
+          class="mx-5 max-w-screen-sm border-8 border-primary-300 bg-white bg-opacity-80 px-5 py-16 align-middle md:w-[55%] md:max-w-none md:bg-transparent lg:w-[65%] lg:px-28"
+        >
+          <h2 class="font-display text-3xl uppercase tracking-wider text-blue-900 md:text-4xl">
+            Corporate Travel
+          </h2>
+          <div class="mt-7 font-display text-2xl uppercase tracking-[.2em] text-gray-800">
+            <p class="mb-3">Meetings</p>
+            <p class="mb-3">Incentives</p>
+            <p class="mb-3">Retreats</p>
+            <p class="mb-9">Conferences</p>
+          </div>
+          <a class="border border-primary-300 py-2 px-4 text-sm uppercase" href="#">Discover</a>
+        </div>
+      </section>
+
+      <!-- Luxury Section -->
+
+      <section
+        class="grid min-h-screen items-center bg-[url('/images/service-2.png')] bg-cover bg-no-repeat"
+      >
+        <div
+          class="mx-5 inline-block max-w-screen-sm border-8 border-primary-300 bg-white bg-opacity-80 px-5 py-16 align-middle md:mx-32 md:px-32"
+        >
+          <h2 class="font-display text-3xl uppercase tracking-wider text-blue-900 md:text-4xl">
+            Luxury
+          </h2>
+          <div class="mt-7 font-display text-2xl uppercase tracking-[.2em] text-gray-800">
+            <p class="mb-3">Resorts</p>
+            <p class="mb-3">Villas</p>
+            <p class="mb-3">Romance</p>
+            <p class="mb-9">Bespoke</p>
+          </div>
+          <a class="border border-primary-300 py-2 px-4 text-sm uppercase" href="#">Discover</a>
+        </div>
+      </section>
+
+      <!-- Falicitation Section -->
+      <section
+        class="bg grid h-[60vh] items-center bg-white bg-cover bg-no-repeat sm:h-[80vh] md:justify-items-end md:bg-contain lg:px-32"
+      >
+        <div
+          class="mx-5 max-w-screen-sm border-8 border-primary-300 bg-white bg-opacity-80 px-5 py-16 align-middle md:w-[55%] md:max-w-none md:bg-transparent lg:w-[65%] lg:px-28"
+        >
+          <h2 class="font-display text-3xl uppercase tracking-wider text-blue-900 md:text-4xl">
+            Falicitation
+          </h2>
+          <div class="mt-7 font-display text-2xl uppercase tracking-[.2em] text-gray-800">
+            <p class="mb-3">Speaking</p>
+            <p class="mb-3">Webinars</p>
+            <p class="mb-9">Trainings</p>
+          </div>
+          <a class="border border-primary-300 py-2 px-4 text-sm uppercase" href="#">Discover</a>
+        </div>
+      </section>
+
+      <!-- Event Planning Section -->
+
+      <section
+        class="grid min-h-screen items-center bg-[url('/images/service-3.png')] bg-cover bg-no-repeat"
+      >
+        <div
+          class="mx-5 inline-block max-w-screen-sm border-8 border-primary-300 bg-white bg-opacity-80 px-5 py-16 align-middle md:mx-32 md:px-32"
+        >
+          <h2 class="font-display text-3xl uppercase tracking-wider text-blue-900 md:text-4xl">
+            Event Planning
+          </h2>
+          <div class="mt-7 font-display text-2xl uppercase tracking-[.2em] text-gray-800">
+            <p class="mb-3">Corporate Planning</p>
+            <p class="mb-3">Planning</p>
+            <p class="mb-3">Meetings</p>
+            <p class="mb-3">Sales</p>
+            <p class="mb-3">Team Buildings</p>
+            <p class="mb-9">Conferences</p>
+          </div>
+          <a class="border border-primary-300 py-2 px-4 text-sm uppercase" href="#">Discover</a>
+        </div>
+      </section>
+
+      <section class="relative block overflow-hidden">
+        <div class="absolute top-0 left-0 h-full w-full pb-[50%]">
+          <img
+            src="/images/david-marcu-78A265wPiO4-unsplash.png"
+            alt="cloud"
+            class="bg-landscape absolute bottom-0 left-0 h-full w-full bg-cover bg-center bg-no-repeat object-cover"
+          />
+          <img
+            src="/images/Cloud.png"
+            alt="cloud"
+            class="cloud-parallax absolute left-0 h-full w-full object-cover"
+            data-speed=".4"
+          />
+        </div>
+        <div class="relative mx-auto max-w-3xl place-items-center pt-[40rem] pb-20 lg:pt-[50rem]">
+          <div class="container">
+            <h5 class="text-center font-bold uppercase text-secondary-500">
+              make every experience count!
+            </h5>
+            <h1 class="mt-4 text-center font-display text-3xl text-secondary-500">
+              Receive helpful tips and inspiration in your inbox
+            </h1>
+            <div class="mt-8 grid grid-cols-1 gap-4 lg:grid-cols-2">
+              <div>
+                <label class="form-label" for="name">First Name</label>
+                <input class="form-input" id="name" type="text" placeholder="" />
+              </div>
+              <div>
+                <label class="form-label" for="name">Last Name</label>
+                <input class="form-input" id="name" type="text" placeholder="" />
+              </div>
+              <div>
+                <label class="form-label" for="name">Email</label>
+                <input class="form-input" id="name" type="text" placeholder="" />
+              </div>
+              <div class="block">
+                <div class="mt-2">
+                  <label class="inline-flex items-center gap-4">
+                    <div class="input-round">
+                      <input type="checkbox" checked id="checkbox" />
+                      <label for="checkbox"></label>
+                    </div>
+                    <span class="ml-2">I’m happy to receive emails from Experientialist</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <button
+              class="m-auto mt-5 block w-full bg-primary-300 px-4 py-3 text-sm uppercase tracking-wide text-white lg:w-auto"
+              type="submit"
+            >
+              Subscribe
+            </button>
+          </div>
         </div>
       </section>
       <section
