@@ -184,7 +184,7 @@
       <!-- Corporate Travel Section -->
 
       <section
-        class="bg grid h-[60vh] items-center bg-[url('/images/service-4.png')] bg-cover bg-no-repeat sm:h-[80vh] md:justify-items-end md:bg-contain lg:px-32"
+        class="grid h-[60vh] items-center bg-[url('/images/service-4.png')] bg-cover bg-no-repeat sm:h-[80vh] md:justify-items-end md:bg-contain lg:px-32"
       >
         <div
           class="mx-5 max-w-screen-sm border-8 border-primary-300 bg-white bg-opacity-80 px-5 py-16 align-middle md:w-[55%] md:max-w-none md:bg-transparent lg:w-[65%] lg:px-28"
@@ -225,7 +225,7 @@
 
       <!-- Falicitation Section -->
       <section
-        class="bg grid h-[60vh] items-center bg-white bg-cover bg-no-repeat sm:h-[80vh] md:justify-items-end md:bg-contain lg:px-32"
+        class="grid h-[60vh] items-center bg-white bg-cover bg-no-repeat sm:h-[80vh] md:justify-items-end md:bg-contain lg:px-32"
       >
         <div
           class="mx-5 max-w-screen-sm border-8 border-primary-300 bg-white bg-opacity-80 px-5 py-16 align-middle md:w-[55%] md:max-w-none md:bg-transparent lg:w-[65%] lg:px-28"
@@ -262,6 +262,36 @@
             <p class="mb-9">Conferences</p>
           </div>
           <a class="border border-primary-300 py-2 px-4 text-sm uppercase" href="#">Discover</a>
+        </div>
+      </section>
+
+      <!-- Popular Tours Section -->
+
+      <section
+        class="m-10 grid h-fit grid-cols-1 items-center justify-center bg-white md:m-0 md:h-[70vh] md:grid-cols-2"
+      >
+        <div class="m-auto block w-fit text-right">
+          <img src="/images/map.png" alt="map" class="object-contain text-right" />
+        </div>
+        <div class="ml-5 w-[50vh]">
+          <h2 class="font-display text-3xl">Popular Tours</h2>
+          <p class="mt-5 text-sm text-neutral-700">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam consectetuer
+            adipiscing elit, sed diam nonummy nibh...
+          </p>
+          <div class="mt-7 flex flex-wrap gap-y-6 gap-x-9 text-sm">
+            <p class="text-black">Europe <span class="text-orange-500">(05)</span></p>
+            <p class="text-black">Africa <span class="text-orange-500">(05)</span></p>
+            <p class="text-black">Asia <span class="text-orange-500">(05)</span></p>
+            <p class="text-black">Oceana <span class="text-orange-500">(05)</span></p>
+            <p class="text-black">North America <span class="text-orange-500">(05)</span></p>
+            <p class="text-black">South America <span class="text-orange-500">(05)</span></p>
+          </div>
+          <a
+            class="mt-7 block w-fit bg-primary-300 py-3 px-4 text-sm uppercase text-white underline"
+            href="#"
+            >All Destinations</a
+          >
         </div>
       </section>
 
