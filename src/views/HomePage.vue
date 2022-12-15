@@ -20,7 +20,7 @@
                 class="!z-10 hidden w-fit divide-y divide-gray-100 bg-white shadow-sm"
               >
                 <ul
-                  class="border border-t-primary-300 py-1 text-sm text-secondary-300"
+                  class="border border-primary-200 py-1 text-sm text-secondary-300"
                   aria-labelledby="dropdownLargeButton"
                 >
                   <li>
