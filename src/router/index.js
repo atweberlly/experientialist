@@ -7,6 +7,7 @@ import ContactPage from '../views/ContactPage.vue'
 import AboutPage from '../views/AboutPage.vue'
 import AboutMain from '../views/AboutMainPage.vue'
 import ServicesPage from '../views/ServicesPage.vue'
+import ServicesLeisuresPage from '../views/ServicesLeisuresPage.vue'
 
 const routes = [
   {
@@ -40,6 +41,10 @@ const routes = [
   {
     path: '/services',
     component: ServicesPage,
+  },
+  {
+    path: '/services/leisures',
+    component: ServicesLeisuresPage,
   },
   {
     path: '/:pathMatch(.*)*',
