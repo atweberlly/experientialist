@@ -164,6 +164,64 @@
 
       <!-- Hotels, Guides, Tickets Section -->
 
+      <section class="h-fit bg-white py-40">
+        <div class="px-5 grid h-full max-w-5xl grid-flow-col grid-rows-4 mx-auto gap-4 lg:px-0">
+          <div
+            class="col-span-2 row-span-4 flex h-96 flex-col items-center justify-center bg-[url('/images/service-8.png')] bg-cover bg-no-repeat"
+          >
+            <h1 class="text-center align-middle font-display text-2xl text-white md:text-5xl">
+              Leisures
+            </h1>
+            <p class="text-center text-sm text-white md:text-base">Your best vacation ever</p>
+          </div>
+          <div
+            class="row-span-2 flex items-center justify-center bg-[url('/images/service-7.png')] bg-cover bg-no-repeat"
+          >
+            <h1 class="text-center align-middle font-display text-xl text-white md:text-4xl">
+              Conferences
+            </h1>
+          </div>
+          <div
+            class="row-span-2 flex items-center justify-center bg-[url('/images/service-6.png')] bg-cover bg-no-repeat"
+          >
+            <h1 class="text-center align-middle font-display text-xl text-white md:text-4xl">
+              Retreats
+            </h1>
+          </div>
+        </div>
+        <div
+          class="m-auto px-5 mt-14 max-w-5xl grid-cols-none md:grid md:grid-cols-3 md:gap-4 lg:px-0 lg:gap-7"
+        >
+          <div>
+            <h2 class="mt-4 text-xl font-thin text-gray-500">
+              <span class="text-orange-400">01</span> Luxury Hotels
+            </h2>
+            <p class="mt-5 text-sm text-gray-500">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh tempor
+              cum soluta nobis consectetuer nihil imperdiet doming...
+            </p>
+          </div>
+          <div>
+            <h2 class="mt-4 text-xl font-thin text-gray-500">
+              <span class="text-orange-400">02</span> Tourist Guide
+            </h2>
+            <p class="mt-5 text-sm text-gray-500">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh tempor
+              cum soluta nobis consectetuer nihil imperdiet doming...
+            </p>
+          </div>
+          <div>
+            <h2 class="mt-4 text-xl font-thin text-gray-500">
+              <span class="text-orange-400">03</span> Flights Tickets
+            </h2>
+            <p class="mt-5 text-sm text-gray-500">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh tempor
+              cum soluta nobis consectetuer nihil imperdiet doming...
+            </p>
+          </div>
+        </div>
+      </section>
+
       <!-- Popular Tours Section -->
 
       <section
