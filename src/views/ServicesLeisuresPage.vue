@@ -161,11 +161,162 @@
       </section>
 
       <!-- Leisures Section -->
+      <section class="h-fit bg-[#F9FBFE] py-9">
+        <h1 class="m-32 font-sans text-4xl text-gray-400">
+          Services / <span class="text-black">Leisures</span>
+        </h1>
+
+        <!-- Columns -->
+
+        <div
+          class="mt-28 grid h-fit grid-cols-1 gap-x-7 bg-white p-6 hover:shadow-xl md:grid-cols-3 md:gap-x-12 lg:my-10 lg:mx-28 lg:min-w-xs"
+        >
+          <div>
+            <img src="/images/service-9.png" class="" />
+          </div>
+          <div>
+            <h3 class="text-2xl text-gray-800">Switzerland – 5 Days Cruise</h3>
+            <p class="mt-5 text-sm text-gray-500">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy Etiam porta
+              sem malesuada magna mollis euismod.
+            </p>
+            <p class="my-4 text-sm text-gray-500">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy Etiam porta
+              sem malesuada magna mollis euismod.
+            </p>
+          </div>
+          <div class="w-full">
+            <div
+              class="mx-auto flex h-full w-full flex-col justify-between justify-self-center bg-[#1D3B47] md:mr-0 md:w-fit md:justify-self-end"
+            >
+              <p class="bg-yellow-300 px-10 py-2 text-center text-xs text-black">
+                Availability : Jan 16’ - Dec 16’
+              </p>
+              <div class="my-5 items-center self-center text-center align-middle text-white">
+                <p class="mb-1 text-xs">From</p>
+                <h4 class="font-display text-lg">$2,500</h4>
+              </div>
+              <a
+                class="w-fit items-center self-center bg-yellow-300 p-4 text-center align-bottom text-blue-900"
+                >Explore Tour</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="mt-28 grid h-fit grid-cols-1 gap-x-7 bg-white p-6 hover:shadow-xl md:my-10 md:grid-cols-3 md:gap-x-12 lg:mx-28 lg:min-w-xs"
+        >
+          <div>
+            <img src="/images/service-10.png" class="" />
+          </div>
+          <div>
+            <h3 class="text-2xl text-gray-800">City Tours in Europe, Paris</h3>
+            <p class="mt-5 text-sm text-gray-500">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy Etiam porta
+              sem malesuada magna mollis euismod.
+            </p>
+            <p class="my-4 text-sm text-gray-500">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy Etiam porta
+              sem malesuada magna mollis euismod.
+            </p>
+          </div>
+          <div class="w-full">
+            <div
+              class="mx-auto flex h-full w-full flex-col justify-between justify-self-center bg-[#1D3B47] md:mr-0 md:w-fit md:justify-self-end"
+            >
+              <p class="bg-yellow-300 px-10 py-2 text-center text-xs text-black">
+                Availability : Jan 16’ - Dec 16’
+              </p>
+              <div class="my-5 items-center self-center text-center align-middle text-white">
+                <p class="mb-1 text-xs">From</p>
+                <h4 class="font-display text-lg">$2,500</h4>
+              </div>
+              <a
+                class="w-fit items-center self-center bg-yellow-300 p-4 text-center align-bottom text-blue-900"
+                >Explore Tour</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="mt-28 grid h-fit grid-cols-1 gap-x-7 bg-white p-6 hover:shadow-xl md:my-10 md:grid-cols-3 md:gap-x-12 lg:mx-28 lg:min-w-xs"
+        >
+          <div>
+            <img src="/images/service-11.png" class="" />
+          </div>
+          <div>
+            <h3 class="text-2xl text-gray-800">City Tours in Europe, Paris</h3>
+            <p class="mt-5 text-sm text-gray-500">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy Etiam porta
+              sem malesuada magna mollis euismod.
+            </p>
+            <p class="my-4 text-sm text-gray-500">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy Etiam porta
+              sem malesuada magna mollis euismod.
+            </p>
+          </div>
+          <div class="w-full">
+            <div
+              class="mx-auto flex h-full w-full flex-col justify-between justify-self-center bg-[#1D3B47] md:mr-0 md:w-fit md:justify-self-end"
+            >
+              <p class="bg-yellow-300 px-10 py-2 text-center text-xs text-black">
+                Availability : Jan 16’ - Dec 16’
+              </p>
+              <div class="my-5 items-center self-center text-center align-middle text-white">
+                <p class="mb-1 text-xs">From</p>
+                <h4 class="font-display text-lg">$2,500</h4>
+              </div>
+              <a
+                class="w-fit items-center self-center bg-yellow-300 p-4 text-center align-bottom text-blue-900"
+                >Explore Tour</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="mt-28 grid h-fit grid-cols-1 gap-x-7 bg-white p-6 hover:shadow-xl md:my-10 md:grid-cols-3 md:gap-x-12 lg:mx-28 lg:min-w-xs"
+        >
+          <div>
+            <img src="/images/service-12.png" class="" />
+          </div>
+          <div>
+            <h3 class="text-2xl text-gray-800">City Tours in Europe, Paris</h3>
+            <p class="mt-5 text-sm text-gray-500">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy Etiam porta
+              sem malesuada magna mollis euismod.
+            </p>
+            <p class="my-4 text-sm text-gray-500">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy Etiam porta
+              sem malesuada magna mollis euismod.
+            </p>
+          </div>
+          <div class="w-full">
+            <div
+              class="mx-auto flex h-full w-full flex-col justify-between justify-self-center bg-[#1D3B47] md:mr-0 md:w-fit md:justify-self-end"
+            >
+              <p class="bg-yellow-300 px-10 py-2 text-center text-xs text-black">
+                Availability : Jan 16’ - Dec 16’
+              </p>
+              <div class="my-5 items-center self-center text-center align-middle text-white">
+                <p class="mb-1 text-xs">From</p>
+                <h4 class="font-display text-lg">$2,500</h4>
+              </div>
+              <a
+                class="w-fit items-center self-center bg-yellow-300 p-4 text-center align-bottom text-blue-900"
+                >Explore Tour</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!-- Hotels, Guides, Tickets Section -->
 
       <section class="h-fit bg-white py-40">
-        <div class="px-5 grid h-full max-w-5xl grid-flow-col grid-rows-4 mx-auto gap-4 lg:px-0">
+        <div class="mx-auto grid h-full max-w-5xl grid-flow-col grid-rows-4 gap-4 px-5 lg:px-0">
           <div
             class="col-span-2 row-span-4 flex h-96 flex-col items-center justify-center bg-[url('/images/service-8.png')] bg-cover bg-no-repeat"
           >
@@ -190,7 +341,7 @@
           </div>
         </div>
         <div
-          class="m-auto px-5 mt-14 max-w-5xl grid-cols-none md:grid md:grid-cols-3 md:gap-4 lg:px-0 lg:gap-7"
+          class="m-auto mt-14 max-w-5xl grid-cols-none px-5 md:grid md:grid-cols-3 md:gap-4 lg:gap-7 lg:px-0"
         >
           <div>
             <h2 class="mt-4 text-xl font-thin text-gray-500">
