@@ -13,6 +13,7 @@ module.exports = {
       keyframes: true,
       variables: true,
     },
+    'postcss-import': {},
     'postcss-sort-media-queries': {},
     tailwindcss: {},
   },
