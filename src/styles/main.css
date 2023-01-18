@@ -1,7 +1,9 @@
-@import 'base.css';
+/* @import 'base.css';
 @import 'components.css';
-@import 'utilities.css';
+@import 'utilities.css'; */
 
-/*! purgecss start ignore */
-@import 'swiper.css';
-/*! purgecss end ignore */
+/* @import 'swiper.css'; */
+
+@import 'base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
