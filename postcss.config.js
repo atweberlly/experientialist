@@ -1,10 +1,10 @@
-const postcssSorting = require('./utils/postcssSorting')
+const files = require('./files')
 
 module.exports = {
   plugins: {
     autoprefixer: {},
     '@fullhuman/postcss-purgecss': process.env.NODE_ENV === 'production' && {
-      content: ['./index.html', './src/**/*.vue'],
+      content: [...files],
       defaultExtractor: (content) => {
         const broadMatches = content.match(/[^<>"'`\s]*[^<>"'`\s:]+/g) || []
         const innerMatches = content.match(/[^<>"'`\s.()]*[^<>"'`\s.():]+/g) || []
@@ -14,11 +14,6 @@ module.exports = {
       variables: true,
     },
     'postcss-sort-media-queries': {},
-    'postcss-sorting': {
-      order: [...postcssSorting.order],
-      'properties-order': [...postcssSorting.propertiesOrder],
-      'unspecified-properties-position': 'bottom',
-    },
     tailwindcss: {},
   },
 }
