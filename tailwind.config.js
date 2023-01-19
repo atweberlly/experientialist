@@ -86,7 +86,7 @@ module.exports = {
     content: false,
   },
   plugins: [
-    plugin(({ addUtilities }) => {
+    plugin(({ addUtilities, addVariant }) => {
       addUtilities({
         '.writing-rl': {
           'writing-mode': 'vertical-rl',
@@ -95,6 +95,8 @@ module.exports = {
           content: "''",
         },
       })
+
+      addVariant('supports-backdrop-blur', '@supports (backdrop-filter: blur(0))')
     }),
     aspectRatio,
     lineClamp,
