@@ -1,8 +1,8 @@
 # Experientialist
 
-This live demo of Experientialist uses [Vue](https://vuejs.org) and [Tailwind CSS](https://tailwindcss.com).
+This repository contains the staging site for the Experientialist that uses [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/). To develop locally, follow the instructions below.
 
-## Run Locally
+## Local Setup
 
 1. Download or clone the project
 
@@ -19,11 +19,13 @@ This live demo of Experientialist uses [Vue](https://vuejs.org) and [Tailwind CS
 3. Install dependencies
 
    ```sh
-   yarn install
+   npm run install
    ```
 
 4. Start the local server
 
    ```sh
-   yarn dev
+   npm run dev
    ```
+
+To learn more about Astro, check out its [documentation](https://docs.astro.build/).
