@@ -77,7 +77,7 @@ module.exports = {
         display: ['Old Standard TT', 'system-ui'],
       },
       minWidth: {
-        xs: '20rem',
+        xs: '320px',
       },
     },
   },
