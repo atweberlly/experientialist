@@ -37,6 +37,7 @@
     "tailwindcss": "^3.2.4"
   },
   "devDependencies": {
+    "@prettier/plugin-xml": "^2.2.0",
     "@typescript-eslint/parser": "^5.49.0",
     "eslint": "^8.32.0",
     "eslint-config-airbnb-base": "^15.0.0",
