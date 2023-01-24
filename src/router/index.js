@@ -7,6 +7,8 @@ import ContactPage from '../views/ContactPage.vue'
 import AboutPage from '../views/AboutPage.vue'
 import AboutMain from '../views/AboutMainPage.vue'
 import ServicesPage from '../views/ServicesPage.vue'
+import ServicesLeisuresPage from '../views/ServicesLeisuresPage.vue'
+import BookingDetailsPage from '../views/ServicesBookingDetailsPage.vue'
 
 const routes = [
   {
@@ -40,6 +42,14 @@ const routes = [
   {
     path: '/services',
     component: ServicesPage,
+  },
+  {
+    path: '/services/leisures',
+    component: ServicesLeisuresPage,
+  },
+  {
+    path: '/services/leisures/booking-details',
+    component: BookingDetailsPage,
   },
   {
     path: '/:pathMatch(.*)*',
