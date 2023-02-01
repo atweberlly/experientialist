@@ -10,7 +10,7 @@
 }
 
 .form-input {
-  @apply block w-full border border-primary-300 bg-transparent px-4 py-3 caret-primary-300 transition-all placeholder:text-secondary-300 focus:border-primary-200 focus:outline-0 focus:ring-2 focus:ring-primary-300/50 focus:ring-offset-2 focus:ring-offset-primary-200;
+  @apply block w-full border border-primary-300 bg-transparent px-4 py-3 caret-primary-300 transition-all placeholder:text-sm placeholder:text-gray-400 focus:border-primary-200 focus:outline-0 focus:ring-2 focus:ring-primary-300/50 focus:ring-offset-2 focus:ring-offset-primary-200;
 }
 
 .input-round {
@@ -54,4 +54,20 @@
 
 .input-round input[type='checkbox']:checked + label:after {
   opacity: 1;
+}
+
+.form-check-input {
+  @apply float-left mt-1 mr-2 h-4 w-4 cursor-pointer rounded-full border border-primary-300 bg-white bg-contain bg-center bg-no-repeat align-top accent-primary-300 transition duration-200 checked:border-primary-300 checked:bg-primary-300 focus:outline-none;
+}
+
+.form-inline {
+  @apply inline-block text-secondary-300;
+}
+
+.form-radio-input {
+  @apply float-left mt-1 mr-2 h-4 w-4 cursor-pointer appearance-none rounded-full border border-primary-300 bg-white bg-contain bg-center bg-no-repeat align-top transition duration-200 checked:border-primary-300 checked:bg-primary-300 focus:border-2 focus:border-white focus:outline-none focus:ring-2 focus:ring-primary-300;
+}
+
+.form-radio-label {
+  @apply cursor-pointer;
 }
