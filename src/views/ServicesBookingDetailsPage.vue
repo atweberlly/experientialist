@@ -138,9 +138,7 @@
         <div class="absolute top-1/2 left-1/2 -translate-x-2/4 -translate-y-2/4 text-center">
           <div
             class="mt-5 grid w-fit grid-cols-3 justify-center gap-2 rounded-md border bg-white p-2 text-sm md:grid-cols-4 lg:grid-cols-5"
-          >
-           
-          </div>
+          ></div>
         </div>
       </section>
 

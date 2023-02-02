@@ -62,46 +62,46 @@
     </header>
     <div
       id="popup-wrapper"
-      class="top fixed top-2/4 left-2/4 z-50 h-fit w-5/6 md:w-fit -translate-x-2/4 -translate-y-2/4 shadow-lg hidden"
+      class="top fixed top-2/4 left-2/4 z-50 hidden h-fit w-5/6 -translate-x-2/4 -translate-y-2/4 shadow-lg md:w-fit"
     >
-      <div id="popup" class="mx-auto h-full w-full bg-secondary-500 px-6 md:px-20 py-8 text-center">
-        <a class="absolute top-3 right-5 text-white cursor-pointer" id="popup-close">
+      <div id="popup" class="mx-auto h-full w-full bg-secondary-500 px-6 py-8 text-center md:px-20">
+        <a class="absolute top-3 right-5 cursor-pointer text-white" id="popup-close">
           <svg class="h-8 w-8" viewBox="0 0 24 24">
             <path
-            stroke="#fff"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="m6 6 12 12M6 18 18 6 6 18Z"
+              stroke="#fff"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="m6 6 12 12M6 18 18 6 6 18Z"
             />
           </svg>
         </a>
-          <img
-            class="mx-auto block w-48 text-center"
-            src="/images/experientialist-logotype-alt.png"
-            alt="Experientialist Logo"
-          />
-          <img
-            class="mx-auto my-8 block w-96 text-center"
-            src="/images/christmas-promo.png"
-            alt="Cristmas Promo banner"
-          />
-          <div>
-            <h5 class="font-poppins text-xl text-white">
-              Get a <span class="font-bold text-warning-300">FREE</span> excursion on your next
-              great adventure when you book before December 31st for travel in 2023!
-            </h5>
-            <p class="mt-5 px-10 text-xs text-white">
-              * Excursion is limited to availability, and from select options provided by your
-              agent, 2 PAX per $8000CAD spent
-            </p>
-            <p class="mt-5 text-xs text-white">*Only valid for bookings over $8,000 CAD</p>
-            <button
-              class="mx-auto mt-10 block h-fit w-fit bg-primary-300 px-3 py-2 text-center text-white"
-            >
-              Book Now
-            </button>
-          </div>
+        <img
+          class="mx-auto block w-48 text-center"
+          src="/images/experientialist-logotype-alt.png"
+          alt="Experientialist Logo"
+        />
+        <img
+          class="mx-auto my-8 block w-96 text-center"
+          src="/images/christmas-promo.png"
+          alt="Cristmas Promo banner"
+        />
+        <div>
+          <h5 class="font-poppins text-xl text-white">
+            Get a <span class="font-bold text-warning-300">FREE</span> excursion on your next great
+            adventure when you book before December 31st for travel in 2023!
+          </h5>
+          <p class="mt-5 px-10 text-xs text-white">
+            * Excursion is limited to availability, and from select options provided by your agent,
+            2 PAX per $8000CAD spent
+          </p>
+          <p class="mt-5 text-xs text-white">*Only valid for bookings over $8,000 CAD</p>
+          <button
+            class="mx-auto mt-10 block h-fit w-fit bg-primary-300 px-3 py-2 text-center text-white"
+          >
+            Book Now
+          </button>
+        </div>
       </div>
     </div>
     <div
@@ -147,14 +147,18 @@
     <main>
       <section class="min-h-screen bg-resort bg-cover bg-center bg-no-repeat"></section>
 
-      <section class="bg-secondary-50 bg-cresent bg-auto bg-no-repeat bg-right-top bg-origin-content py-8 sm:py-12 md:py-16 lg:py-20">
+      <section
+        class="bg-secondary-50 bg-cresent bg-auto bg-right-top bg-no-repeat bg-origin-content py-8 sm:py-12 md:py-16 lg:py-20"
+      >
         <div class="container">
           <div class="sm:max-w-md">
             <h2 class="font-display text-4xl tracking-tight text-primary-300 md:text-5xl">
               Curating Meaningful Experiences.
             </h2>
             <p class="mt-4 text-secondary-400 md:mt-8">
-              We believe in experience, influence, and travel adventure. We curate meaningful trips sacrificing nothing—overlooking obstacles and meeting results that seemed impossible; we believe anything is possible.
+              We believe in experience, influence, and travel adventure. We curate meaningful trips
+              sacrificing nothing—overlooking obstacles and meeting results that seemed impossible;
+              we believe anything is possible.
             </p>
             <div class="mt-8">
               <a
@@ -184,7 +188,7 @@
             As Seen On
           </h1>
           <div class="swiper partner-swiper mt-8 lg:mt-16">
-            <div class="swiper-wrapper justify-center ml-16">
+            <div class="swiper-wrapper ml-16 justify-center">
               <div class="swiper-slide">
                 <img
                   class="h-6 opacity-50 grayscale hover:opacity-100 hover:grayscale-0 lg:h-12"
@@ -287,7 +291,8 @@
                 Asking the Questions Some Fear to Ask.
               </h2>
               <p class="mt-4 text-lg text-secondary-300 lg:mt-6 xl:mt-8">
-                We keep our partners accountable for their location's sustainability and ensure your travel dollars are responsible for supporting the community you travel to.
+                We keep our partners accountable for their location's sustainability and ensure your
+                travel dollars are responsible for supporting the community you travel to.
               </p>
             </div>
 
@@ -322,7 +327,8 @@
                 Perfecting Travel Indulgence.
               </h2>
               <p class="mt-4 text-lg text-secondary-300 lg:mt-6 xl:mt-8">
-                We bring a world of possibilities closer to you by building bespoke itineraries that encompass unique and organized experiences.
+                We bring a world of possibilities closer to you by building bespoke itineraries that
+                encompass unique and organized experiences.
               </p>
             </div>
           </div>
@@ -717,7 +723,9 @@
                     Elevate Your Planning Experience
                   </h2>
                   <p class="mt-4 text-lg text-secondary-300 lg:mt-8">
-                    We spare no effort to ensure your vacation fits your travel personality. Extraordinary experiences and unforgettable adventures await you or your team without even lifting a finger.
+                    We spare no effort to ensure your vacation fits your travel personality.
+                    Extraordinary experiences and unforgettable adventures await you or your team
+                    without even lifting a finger.
                   </p>
                   <div class="mt-4 lg:mt-8">
                     <a
@@ -945,9 +953,9 @@ const slider = () => {
 }
 
 const christmasModal = () => {
-  const modalClose =  document.getElementById('popup-close')
+  const modalClose = document.getElementById('popup-close')
   const modalWrapper = document.getElementById('popup-wrapper')
-  
+
   if (modalClose) {
     modalClose.addEventListener('click', () => {
       if (modalClose) modalWrapper.classList.add('hidden')
@@ -958,7 +966,7 @@ const christmasModal = () => {
     modalWrapper.classList.remove('hidden')
   }
 
-  setTimeout(displayModal, 3000);
+  setTimeout(displayModal, 3000)
 }
 
 export default {

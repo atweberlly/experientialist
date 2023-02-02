@@ -109,14 +109,15 @@
       <section id="form-section" class="py-8 sm:py-12 md:py-16 lg:py-20">
         <div class="container mt-24 lg:my-32">
           <h5 class="text-center text-xl tracking-tight text-secondary-300 md:text-2xl">
-            Have a trip in mind and want to work with us? Please fill out the form below and we’ll set up a time to connect!
+            Have a trip in mind and want to work with us? Please fill out the form below and we’ll
+            set up a time to connect!
           </h5>
           <p class="mt-4 text-center text-secondary-500">
             Just have a general question or want to learn more about our services?
           </p>
 
           <div class="mx-auto mt-8 w-full bg-[#F8F3EC] p-5 text-center md:mt-16 md:w-3/4 lg:w-2/5">
-            <p class="text-normal md:text-lg font-bold">Please be advised:</p>
+            <p class="text-normal font-bold md:text-lg">Please be advised:</p>
             <p class="mt-5 text-sm font-medium italic">
               We at Experientialist know how crucial it is for you to have a trouble-free trip. We
               strongly suggest that you book your flight through the company you prefer and leave
@@ -710,7 +711,7 @@
                 </div>
                 <div>
                   <button
-                    class="mt-4 md:mt-8 w-full bg-primary-300 px-4 py-3 text-sm uppercase tracking-wide text-white hover:border hover:border-primary-300 hover:bg-white hover:text-primary-300 lg:w-auto"
+                    class="mt-4 w-full bg-primary-300 px-4 py-3 text-sm uppercase tracking-wide text-white hover:border hover:border-primary-300 hover:bg-white hover:text-primary-300 md:mt-8 lg:w-auto"
                     type="submit"
                   >
                     Send message
@@ -721,11 +722,25 @@
           </div>
         </div>
       </section>
-      <section class="mt-8 py-8 sm:py-12 md:py-16 lg:py-20 bg-secondary-500">
+      <section class="mt-8 bg-secondary-500 py-8 sm:py-12 md:py-16 lg:py-20">
         <div class="container">
-          <h1 class="text-white text-xl md:text-2xl lg:text-4xl font-display">Contact Information</h1>
-          <p class="mt-4 lg:text-lg text-white ">Email: <a href="mailto:hello@experientialist.ca" class="text-primary-300 cursor-pointer hover:font-medium">hello@experientialist.ca</a></p>
-          <p class="mt-2 lg:text-lg text-white ">Phone: <a href="tel:+14034603554" class="text-primary-300 cursor-pointer hover:font-medium">+1 (403) 460-3554</a></p>
+          <h1 class="font-display text-xl text-white md:text-2xl lg:text-4xl">
+            Contact Information
+          </h1>
+          <p class="mt-4 text-white lg:text-lg">
+            Email:
+            <a
+              href="mailto:hello@experientialist.ca"
+              class="cursor-pointer text-primary-300 hover:font-medium"
+              >hello@experientialist.ca</a
+            >
+          </p>
+          <p class="mt-2 text-white lg:text-lg">
+            Phone:
+            <a href="tel:+14034603554" class="cursor-pointer text-primary-300 hover:font-medium"
+              >+1 (403) 460-3554</a
+            >
+          </p>
         </div>
       </section>
     </main>
